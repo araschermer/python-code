@@ -1,7 +1,7 @@
 from random import choice
 
 """this challenge is similar to the 1st day challenge of 100 days of code , it is for generating a funny_word that 
-combines two user input strings can be viewed on repl.it website using the following links 
+combines two user input strings. the functionality can be viewed on repl.it website using the following links 
 @link:https://repl.it/@abdelkha/funny-word-generator?embed=1&output=1#main.py 
 some of the used questions ar copied from https://pairedlife.com/etiquette/Funny-Questions-to-Ask-Your-Friends"""
 
