@@ -40,4 +40,33 @@ def roman_to_int(s):
             integer_value -= 20
         if index >= 1 and (s[index - 1] == "C" and char in ["M", "D"]):
             integer_value -= 200
+    print(integer_value)
     return integer_value
+
+
+if __name__ == '__main__':
+    # Example 1:
+    # Input: s = "III"
+    # Output: 3
+    roman_to_int("III")
+    # Example 2:
+    # Input: s = "IV"
+    # Output: 4
+    roman_to_int("IV")
+
+    # Example 3:
+    # Input: s = "IX"
+    # Output: 9
+    roman_to_int("IX")
+
+    # Example 4:
+    # Input: s = "LVIII"
+    # Output: 58
+    # Explanation: L = 50, V= 5, III = 3.
+    roman_to_int("LVIII")
+
+    # Example 5:
+    # Input: s = "MCMXCIV"
+    # Output: 1994
+    # Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+    roman_to_int("MCMXCIV")
