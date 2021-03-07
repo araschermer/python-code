@@ -305,6 +305,7 @@ def hangman():
     print(f" The chosen word contains {word_length} letters. and starts with {chosen_word[0]}.")
     display_[0] = chosen_word[0]
     print(f"{' '.join(display_)}")
+
     while not end_of_game:
         guess = input("Guess a letter: ").lower()
         # Check guessed letter
