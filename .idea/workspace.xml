@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100 days of code/easy/caeser-cipher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 days of code/easy/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/easy/hangman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 days of code/easy/caeser-cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/easy/caeser-cipher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
