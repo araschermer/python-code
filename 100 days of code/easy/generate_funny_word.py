@@ -1,15 +1,9 @@
 from random import choice
 
-<<<<<<< HEAD
 """this challenge is similar to the 1st day challenge of 100 days of code , it is for generating a funny_word that 
 combines two user input strings. the functionality can be viewed on repl.it website using the following links 
 @link:https://repl.it/@abdelkha/funny-word-generator?embed=1&output=1#main.py 
 some of the used questions ar copied from https://pairedlife.com/etiquette/Funny-Questions-to-Ask-Your-Friends"""
-=======
-"""this challenge is similar to the 100 days of code 1st day challenge, it is for generating a funny_word that 
-combines two user input strings can be viewed on repl.it website using the following links 
-@link:https://repl.it/@abdelkha/funny-word-generator?embed=1&output=1#main.py """
->>>>>>> parent of 4a3d20e ( updating documentaiton in the generate_funny_word, and readme)
 
 
 def generate_funny_word():

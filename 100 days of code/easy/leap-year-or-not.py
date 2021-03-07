@@ -15,3 +15,7 @@ def is_leap_year(year):
             print(leap_year)
     else:
         print(not_leap_year)
+
+
+if __name__ == '__main__':
+    is_leap_year(2021)
