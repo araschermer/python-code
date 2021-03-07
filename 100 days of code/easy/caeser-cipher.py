@@ -28,23 +28,21 @@ def decrypt(plain_text, shift_amount):
 
 
 # alternative solution
-def ceasar(plain_text, shift_amount, direction):
+def caesar_cipher(plain_text, shift_amount, direction):
     text = ""
     for letter in plain_text:
         if letter in alphabet:
-            index = alphabet.index(letter)
-            if letter in alphabet:
-                if direction == "encode" or int(direction) == 1:
-                    index += shift_amount
+            index = alphabet.index(letter) # getting the original index of the letter in our alphabet
+            if direction == "encode" or int(direction) == 1:
+                index += shift_amount
+                while index >= len(alphabet) - 1:
+                    index = index % 25 - 1  # to start from index 0
 
-                    while index >= len(alphabet) - 1:
-                        index = index % 25 - 1  # to start from index 0
-
-                if direction == "decode" or int(direction) == 2:
-                    index -= shift_amount
-                    while index < 0:
-                        index += 25  # to start counting from z if the shifting is by a value> 25
-                text += alphabet[index]
+            if direction == "decode" or int(direction) == 2:
+                index -= shift_amount # reversing the direction of the shifting
+                while index < 0:
+                    index += 25  # to start counting from z if the shifting is by a value> 25
+            text += alphabet[index]
         else:
             text += letter
     if direction not in ['encode', 'decode'] or int(direction) in [1, 2]:
@@ -59,7 +57,7 @@ def ceasar(plain_text, shift_amount, direction):
 def get_message_details(direction=1):
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
-    ceasar(text, shift, direction)
+    caesar_cipher(text, shift, direction)
 
 
 if __name__ == "__main__":
