@@ -28,10 +28,10 @@ def password_generator(num_lowercase=-1, num_uppercase=-1, num_numbers=-1, num_c
         temp_password += str(choice(numbers))
     shuffle(temp_password)  # shuffle the list
     password = password.join(temp_password)  # convert the shuffled list to a password string
-    print(password)
+    print(f"Your password is: {password}")
     return password
 
 
 if __name__ == '__main__':
-    # password_generator()
     password_generator(num_lowercase = 5, num_numbers = 5, num_characters = 5, num_uppercase = 5)
+    password_generator()
