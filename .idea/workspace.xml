@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 days of code/easy/generate_funny_word.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/easy/generate_funny_word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 days of code/easy/leap-year-or-not.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/easy/leap-year-or-not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
