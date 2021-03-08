@@ -3,7 +3,21 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\100 days of code\easy\blind_auction.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\easy\caeser-cipher.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\easy\calculator.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
@@ -46,6 +60,13 @@
           </value>
         </entry>
         <entry key="\LeetCode\easy\valid-parentheses.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\venv\Lib\site-packages\replit\__init__.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
