@@ -59,6 +59,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\LeetCode\easy\longest-common-prefix.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\LeetCode\easy\one-segment-of-ones.py">
           <value>
             <Attribute>
