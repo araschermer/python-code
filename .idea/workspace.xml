@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine/Coffee Machine Documentation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine/Coffee+Machine+Program+Requirements.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine/coffee-machine(procedural).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine/coffee_maker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine/money_machine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
