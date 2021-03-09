@@ -73,6 +73,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\coffee-machine\menu.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\coffee-machine\money_machine.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\new.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\LeetCode\easy\longest-common-prefix.py">
           <value>
             <Attribute>
