@@ -136,6 +136,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\turtle-crossing-game\car_manager.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\turtle-crossing-game\player.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\intermediate\turtle-race\main.py">
           <value>
             <Attribute>
