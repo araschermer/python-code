@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/turtle-race/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/snake-game-part-2-final.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/snake.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -49,12 +53,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\snake-game" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\quiz" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\coffee-machine" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/snake-game" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/coffee-machine/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/snake-game/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.move-zeros" />
         <item itemvalue="Python.remove-element" />
         <item itemvalue="Python.remove-duplicates" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>

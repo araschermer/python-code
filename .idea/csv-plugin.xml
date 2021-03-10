@@ -101,6 +101,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\snake-game\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\snake-game\scoreboard.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\snake-game\snake.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\intermediate\turtle-race\main.py">
           <value>
             <Attribute>
