@@ -94,6 +94,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\pong\ball.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\pong\scoreboard.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\intermediate\qiuz\quiz_brain.py">
           <value>
             <Attribute>
