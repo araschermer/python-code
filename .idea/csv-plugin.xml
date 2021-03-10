@@ -101,6 +101,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\turtle-race\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\LeetCode\easy\longest-common-prefix.py">
           <value>
             <Attribute>
