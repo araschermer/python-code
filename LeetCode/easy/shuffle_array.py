@@ -6,13 +6,22 @@ def shuffle(nums, n):
     :type n: int
     :rtype: List[int]
     """
+    # approach 01
     # Runtime: 44 ms, faster than 74.03% of Python online submissions for Shuffle the Array.
     # Memory Usage: 13.4 MB, less than 99.37% of Python online submissions for Shuffle the Array.
     # https://leetcode.com/submissions/detail/466615090/
+    # approach 02
+    # Runtime: 36 ms, faster than 98.91% of Python online submissions for Shuffle the Array.
+    # Memory Usage: 13.5 MB, less than 93.64% of Python online submissions for Shuffle the Array.
     num = []
     for i in range(n):
-        num.append(nums[i])
-        num.append(nums[n + i])
+        # approach 01
+        # num.append(nums[i])
+        # num.append(nums[n + i])
+
+        # approach 02
+        num += [nums[i], nums[i + n]]
+
     print(num)
     return num
 
