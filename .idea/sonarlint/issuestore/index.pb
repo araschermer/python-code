@@ -55,3 +55,29 @@ P
  100 days of code/easy/hangman.py,7\2\72ef5e8e5aad3650649ef16b71c6d8786edaff6f
 X
 (100 days of code/easy/higher-or-lower.py,a\4\a48850c69d43c4d133ab00f948962b94a65fbe41
+`
+0100 days of code/intermediate/snake-game/food.py,5\f\5f666698e709f305f551b46f7770228e497a40ca
+a
+1100 days of code/intermediate/snake-game/snake.py,1\9\19cb53a9554edc505a7741ddf5c91048a7e1d372
+j
+:100 days of code/intermediate/snake-game/highest_score.txt,9\0\904313e4966dfca38f343388091f7b00d442022a
+`
+0100 days of code/intermediate/snake-game/main.py,b\e\be3d7ce1a94b408f17843395998c7cbe7dde8bdb
+V
+&LeetCode/medium/first-last-position.py,3\c\3c4ccf9a1bc89fb54108b45e17f076e924447136
+S
+#LeetCode/medium/multiply-strings.py,a\1\a11beffc206b6513cb5006902b9d8e09fe96b513
+a
+1100 days of code/intermediate/turtle-race/main.py,d\2\d231b99f3fa96968e5666bcf13de1d7b846a6284
+f
+6100 days of code/intermediate/snake-game/scoreboard.py,8\9\89b3764ed74bcf32874e9b95116cff6f11ac2c50
+j
+:100 days of code/intermediate/us-states-game/us_states.csv,f\c\fc8797e13195ec12fe44e7c9e358741e4685dd70
+p
+@100 days of code/intermediate/us-states-game/states_to_learn.csv,5\5\5558e07e43aa841e8c06407f0bff2cbc9b09e46b
+d
+4100 days of code/intermediate/us-states-game/main.py,6\0\604f70b91632123fc9d87dc7a737cc1a274587f0
+v
+F100 days of code/intermediate/NATO-alphabet/nato_phonetic_alphabet.csv,1\2\12a891793871752d95a11d81fd1368aae19044e0
+c
+3100 days of code/intermediate/NATO-alphabet/main.py,9\a\9a775fb7dfe1488b435ce55f451916022e108e04

@@ -234,6 +234,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\LeetCode\easy\running_sum_1d_array.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\LeetCode\easy\valid-parentheses.py">
           <value>
             <Attribute>
