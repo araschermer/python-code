@@ -248,6 +248,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\LeetCode\easy\square-and-sort.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\LeetCode\easy\valid-parentheses.py">
           <value>
             <Attribute>
