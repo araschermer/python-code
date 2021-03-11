@@ -1,5 +1,7 @@
 # Runtime: 176 ms, faster than 96.05% of Python online submissions for Squares of a Sorted Array.
 # Memory Usage: 15.2 MB, less than 98.60% of Python online submissions for Squares of a Sorted Array.
+# https://leetcode.com/submissions/detail/466622131/
+
 def sorted_squares(nums):
     """Given an integer array nums sorted in non-decreasing order,
      return an array of the squares of each number sorted in non-decreasing order.
