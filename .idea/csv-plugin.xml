@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="D:\JobSearch21\Python\100 Days of Code - The Complete Python Pro Bootcamp for 2021\26. Day 26 - Intermediate - List Comprehension and the NATO Alphabet\NATO-alphabet\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\easy\blackjack.py">
           <value>
             <Attribute>
@@ -67,6 +74,13 @@
           </value>
         </entry>
         <entry key="\100 days of code\easy\treasure-map.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\NATO-alphabet\main.py">
           <value>
             <Attribute>
               <option name="separator" value="," />

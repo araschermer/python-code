@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/NATO-alphabet/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/NATO-alphabet/nato_phonetic_alphabet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/NATO-alphabet/numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/NATO-alphabet/numbers2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +51,9 @@
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\turtle-crossing-game" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\us-states-game" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\snake-game" />
-      <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\quiz" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\coffee-machine" />
     </key>
