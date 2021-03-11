@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game/car_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/highest_score.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Medium/first-last-position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Medium/multiply-strings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/intermediate/snake-game/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +63,8 @@
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\coffee-machine" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (3)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.first-last-position">
+    <configuration name="first-last-position" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/turtle-race" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/medium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/turtle-race/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/medium/first-last-position.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/mail-merge" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/mail-merge/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scoreboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiply-strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/medium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game/scoreboard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/medium/multiply-strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,13 +190,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.multiply-strings" />
+      <item itemvalue="Python.first-last-position" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.scoreboard" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.first-last-position" />
+        <item itemvalue="Python.multiply-strings" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>

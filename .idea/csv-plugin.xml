@@ -87,6 +87,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\mail-merge\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\intermediate\new.py">
           <value>
             <Attribute>
@@ -200,6 +207,13 @@
           </value>
         </entry>
         <entry key="\LeetCode\easy\valid-parentheses.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LeetCode\medium\multiply-strings.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
