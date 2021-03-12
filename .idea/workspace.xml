@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/generate_password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/Solution+-+password-manager-improved-end.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/Solution+-+password-manager-improved-end/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/Solution+-+password-manager-improved-end/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/Solution+-+password-manager-improved-end/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/Solution+-+password-manager-improved-end/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/intermediate/password-manager/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,27 +88,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="km-to-miles-converter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/miles-km-converter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/miles-km-converter/km-to-miles-converter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,6 +130,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/day30" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/day30/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,19 +173,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.km-to-miles-converter" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.generate_password" />
+      <item itemvalue="Python.main (3)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.generate_password" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.km-to-miles-converter" />
       </list>
     </recent_temporary>
   </component>
