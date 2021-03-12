@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/easy/merge-arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/easy/square-of-sorted-array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/miles-km-converter/km-to-miles-converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/miles-km-converter/miles-to-km-converter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +61,8 @@
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\quiz" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.square-of-sorted-array">
-    <configuration name="increasing-order-sorting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.km-to-miles-converter">
+    <configuration name="km-to-miles-converter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/easy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/miles-km-converter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\JobSearch21\GIT\python-code\increasing-order-sorting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/miles-km-converter/km-to-miles-converter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/qiuz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/miles-to-km" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\quiz\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/miles-to-km/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge-arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="miles-to-km-converter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/easy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/miles-km-converter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/easy/merge-arrays.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/miles-km-converter/miles-to-km-converter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="running-sum-1d-array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="miles-to-km-converter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/easy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/miles-to-km" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\JobSearch21\GIT\python-code\LeetCode\easy\running-sum-1d-array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/miles-to-km/miles-to-km-converter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shuffle_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,32 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/easy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/miles-to-km" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/easy/shuffle_array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="square-of-sorted-array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/easy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/easy/square-of-sorted-array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/miles-to-km/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,19 +168,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.running-sum-1d-array" />
-      <item itemvalue="Python.increasing-order-sorting" />
-      <item itemvalue="Python.shuffle_array" />
-      <item itemvalue="Python.merge-arrays" />
-      <item itemvalue="Python.square-of-sorted-array" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.playground" />
+      <item itemvalue="Python.miles-to-km-converter" />
+      <item itemvalue="Python.miles-to-km-converter (1)" />
+      <item itemvalue="Python.km-to-miles-converter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.square-of-sorted-array" />
-        <item itemvalue="Python.merge-arrays" />
-        <item itemvalue="Python.shuffle_array" />
-        <item itemvalue="Python.increasing-order-sorting" />
-        <item itemvalue="Python.running-sum-1d-array" />
+        <item itemvalue="Python.km-to-miles-converter" />
+        <item itemvalue="Python.miles-to-km-converter (1)" />
+        <item itemvalue="Python.miles-to-km-converter" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.playground" />
       </list>
     </recent_temporary>
   </component>

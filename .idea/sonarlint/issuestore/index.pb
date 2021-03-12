@@ -81,3 +81,13 @@ v
 F100 days of code/intermediate/NATO-alphabet/nato_phonetic_alphabet.csv,1\2\12a891793871752d95a11d81fd1368aae19044e0
 c
 3100 days of code/intermediate/NATO-alphabet/main.py,9\a\9a775fb7dfe1488b435ce55f451916022e108e04
+~
+N100 days of code/easy/venv/Lib/site-packages/setuptools/_distutils/filelist.py,0\9\09fb8533f4651a230d8e110d0c5b0f5bfb33d2b8
+U
+%LeetCode/easy/running-sum-1d-array.py,4\c\4cd8bb40726f35527d407ecc7d5cfd470e1683b8
+N
+LeetCode/easy/shuffle_array.py,a\b\ab36ee0a36af08a71be1d6963fb2f7dd404eec77
+M
+LeetCode/easy/merge-arrays.py,1\b\1b9c9182dfbba89d2050789611dc39843e70c677
+W
+'LeetCode/easy/square-of-sorted-array.py,9\f\9f9f9cb73496c8a075cdea86a3bd167623354377
