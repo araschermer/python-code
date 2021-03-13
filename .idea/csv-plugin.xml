@@ -332,6 +332,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\LeetCode\medium\string-frequency-sort.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\venv\Lib\site-packages\replit\__init__.py">
           <value>
             <Attribute>

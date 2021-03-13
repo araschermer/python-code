@@ -101,3 +101,7 @@ s
 C100 days of code/intermediate/password-manager/generate_password.py,c\b\cb8133032428161acf7a626a8c64305f35dc5b02
 f
 6100 days of code/intermediate/password-manager/main.py,5\d\5d3aa117e4f9c8d9f88ed765389192c76090db8e
+r
+B100 days of code/intermediate/flash-card-app/data/french_words.csv,c\f\cfcdff45fcdb37106ec1d0c7f2194e95e62fcd0c
+d
+4100 days of code/intermediate/flash-card-app/main.py,6\e\6e9a6d990a4fdf27ac5770fae4e79d0c223ef131
