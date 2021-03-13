@@ -91,3 +91,13 @@ M
 LeetCode/easy/merge-arrays.py,1\b\1b9c9182dfbba89d2050789611dc39843e70c677
 W
 'LeetCode/easy/square-of-sorted-array.py,9\f\9f9f9cb73496c8a075cdea86a3bd167623354377
+y
+I100 days of code/intermediate/miles-km-converter/miles_to_km_converter.py,5\5\5516c5996587370ed237ffde6d29f70cc11b930c
+^
+.100 days of code/intermediate/pomodoro/main.py,5\7\5721ae24915f330e69369c825c696963760e0705
+y
+I100 days of code/intermediate/miles-km-converter/km-to-miles-converter.py,3\d\3d0efe0a317c3e9d897d10634d50c0ee8c371c41
+s
+C100 days of code/intermediate/password-manager/generate_password.py,c\b\cb8133032428161acf7a626a8c64305f35dc5b02
+f
+6100 days of code/intermediate/password-manager/main.py,5\d\5d3aa117e4f9c8d9f88ed765389192c76090db8e
