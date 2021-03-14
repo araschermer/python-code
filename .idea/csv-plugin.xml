@@ -339,6 +339,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\LeetCode\medium\filter-restaurants.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\LeetCode\medium\multiply-strings.py">
           <value>
             <Attribute>
