@@ -1,8 +1,8 @@
-# Runtime: 332 ms, faster than 79.03% of Python3 online submissions for Filter Restaurants by Vegan-Friendly,
+# Runtime: 320 ms, faster than 96.51% of Python3 online submissions for Filter Restaurants by Vegan-Friendly,
 # Price and Distance.
-# Memory Usage: 22.7 MB, less than 93.28% of Python3 online submissions for Filter Restaurants by
-# Vegan-Friendly, Price and Distance. Vegan-Friendly, Price and Distance.
-# https://leetcode.com/submissions/detail/467662256/
+# Memory Usage: 22.8 MB, less than 93.28% of Python3 online submissions for Filter Restaurants by
+# Vegan-Friendly, Price and Distance.
+# Submission: https://leetcode.com/submissions/detail/467672101/
 def filter_restaurants(restaurants: [[int]], vegan_friendly: int, max_price: int, max_distance: int) -> [int]:
     """Given the array restaurants where  restaurants[i] = [idi, ratingi, veganFriendlyi, pricei, distancei].
      You have to filter the restaurants using three filters.The veganFriendly filter will be either true
