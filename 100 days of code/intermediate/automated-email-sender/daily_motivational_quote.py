@@ -21,12 +21,12 @@ def get_smtp(sender_email):
         print("SMTP for your email address is not defined")
 
 
-def send_email(sender_email, password, receiver_email):
+def send_email(sender_email, password, receiver_email, subject="Motivational Quote"):
     with smtplib.SMTP(get_smtp(sender_email)) as connection:
         connection.starttls()
         connection.login(user = sender_email, password = password)
         connection.sendmail(from_addr = sender_email, to_addrs = receiver_email,
-                            msg = f"Subject: Motivational Motivational Quote\n\n{get_random_quote()}")
+                            msg = f"Subject: {subject}\n\n{get_random_quote()}")
 
 
 def get_random_quote():
