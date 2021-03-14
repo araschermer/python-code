@@ -48,3 +48,4 @@ if today_tuple in birthdays_dict:
         connection.login(SENDER_EMAIL, SENDER_PASSWORD)
         connection.sendmail(from_addr = SENDER_EMAIL, to_addrs = birthday_person["email"],
                             msg = f"Subject:Happy Birthday!\n\n{content}")
+# to automatically send a daily email, try running the script on pythonanywhere.com

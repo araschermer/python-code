@@ -56,3 +56,5 @@ if get_current_date() in [0, 1, 2, 3, 4, 5, 6]:
                receiver_email = RECEIVER_EMAIL)
 else:
     print("Something went wrong")
+
+# to automatically send a daily email, try running the script on pythonanywhere.com
