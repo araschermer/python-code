@@ -1,19 +1,31 @@
 from tkinter import *
 import requests
+from random import choice
 
 
 def get_quote(itemconfig=True):
-    response = requests.get(url = "https://api.kanye.rest/")
-    response.raise_for_status()
-    data = response.json()
-    text = data["quote"]
-    save_kanye_quotes(text)
-    if itemconfig:
-        canvas.itemconfig(quote_text, text = text)
-    return text
+    try:
+        response = requests.get(url = "https://api.kanye.rest/")
+        print(response.status_code)
+        response.raise_for_status()
+    except:
+        pass  # ignore any link/connection errors
 
-    # https://api.kanye.rest/
-    # Write your code here.
+    else:
+        if response.status_code == 200:
+            data = response.json()
+            text = data["quote"]
+            # caching the quotes to view in case no internet connection is available or a bad response is returned
+            save_kanye_quotes(text)
+            if itemconfig:
+                canvas.itemconfig(quote_text, text = text)
+            return text
+    with open('kanye_quotes.txt', 'r') as f:
+        kanye_quotes = f.readlines()
+        if itemconfig:
+            text = choice(kanye_quotes)
+            canvas.itemconfig(quote_text, text = text)
+        return text
 
 
 def save_kanye_quotes(kanye_quote):

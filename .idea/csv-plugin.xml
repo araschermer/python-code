@@ -227,6 +227,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\quizzler-app\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\quizzler-app\ui.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\intermediate\snake-game\main.py">
           <value>
             <Attribute>
