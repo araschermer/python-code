@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/International-space-station-tracker/Solution+-+issoverhead-end.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/International-space-station-tracker/Solution+-+issoverhead-end/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/International-space-station-tracker/issoverhead-start.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/International-space-station-tracker/issoverhead-start/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/International-space-station-tracker/issoverhead-start/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/International-space-station-tracker/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/kanye-quotes-api/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/kanye-quotes-api/kanye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/kanye-quotes-api/kanye_quotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/kanye-quotes-api/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/api-/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/automated-email-sender/sunrise-sunset-reminder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/Solution+-+quizzler-app-end.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/Type+Hints+demo+Day-34-end.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/images/false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/images/true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/question_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/quiz_brain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/easy/max_sub_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/easy/shortest_sub_array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/automated-email-sender/daily-motivational-quote.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/intermediate/automated-email-sender/daily_motivational_quote.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,56 +63,14 @@
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\turtle-crossing-game" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JobSearch21\GIT\python-code\LeetCode\easy" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\automated-email-sender\birthday-wisher" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\automated-email-sender\birthday-wisher\letter_templates" />
       <recent name="D:\JobSearch21\GIT\python-code\100 days of code\intermediate" />
       <recent name="D:\JobSearch21\GIT\python-code\LeetCode\medium" />
-      <recent name="D:\JobSearch21\GIT\python-code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (4)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/api-" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/api-/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/api-/kanye-quotes-start" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/api-/kanye-quotes-start/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.max_sub_array">
     <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,6 +113,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="max_sub_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/easy/max_sub_array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shortest_sub_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/easy/shortest_sub_array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sunrise-sunset-reminder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,19 +177,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.main (3)" />
       <item itemvalue="Python.main (4)" />
       <item itemvalue="Python.sunrise-sunset-reminder" />
+      <item itemvalue="Python.max_sub_array" />
+      <item itemvalue="Python.shortest_sub_array" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.max_sub_array" />
+        <item itemvalue="Python.shortest_sub_array" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.sunrise-sunset-reminder" />
         <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>

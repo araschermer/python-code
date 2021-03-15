@@ -109,3 +109,25 @@ Q
 !LeetCode/medium/frequency-sort.py,6\0\600be1d600979572d054550970e64fe496a60f10
 X
 (LeetCode/medium/string-frequency-sort.py,0\5\05daa6d715cc8b3287cfa73f02db3213d50f9dd4
+M
+LeetCode/easy/most-candies.py,3\1\3168f33fe0bfacbb8071cd491c78dc3c7ed3a593
+U
+%LeetCode/medium/filter-restaurants.py,1\4\14dfe98d27b58d1c094bfff244f7b4c9a6963bf5
+o
+?100 days of code/intermediate/automated-email-sender/quotes.txt,c\d\cdac6d8d44159aa71d5ffef13bd17005887b75e0
+’
+b100 days of code/intermediate/automated-email-sender/birthday-wisher/letter_templates/letter_1.txt,e\9\e96bf3471b1bde803d9ed971d5fd2dca378e1e3d
+‚
+R100 days of code/intermediate/automated-email-sender/birthday-wisher/birthdays.csv,7\8\785064215f74017c399919499eb0731898c1c14d
+‡
+W100 days of code/intermediate/automated-email-sender/birthday-wisher/birthday-wisher.py,4\d\4d363c5a0019fffd6db85980f1f870a448b9c6cc
+‚
+R100 days of code/intermediate/API/International-space-station-notifier-API/main.py,3\c\3ca49924cdffa0ffc847001d31cf8d801fa0207a
+s
+C100 days of code/intermediate/API/kanye-quotes-API/kanye_quotes.txt,7\f\7fe98805117cda444c0c2ca1c1b1ec35015a3c80
+j
+:100 days of code/intermediate/API/kanye-quotes-API/main.py,3\5\358216d3be66bf94b95c62a4482b6a924d3a7734
+€
+P100 days of code/intermediate/automated-email-sender/daily_motivational_quote.py,c\9\c9e05eaec65b2f314581cbbc6f66b2110c2c0534
+
+O100 days of code/intermediate/automated-email-sender/sunrise-sunset-reminder.py,d\d\dd8d24a0e472381f14927bb231a6fccc61bd04b2

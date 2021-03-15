@@ -297,6 +297,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\LeetCode\easy\max_sub_array.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\LeetCode\easy\most-candies.py">
           <value>
             <Attribute>
@@ -340,6 +347,13 @@
           </value>
         </entry>
         <entry key="\LeetCode\easy\running_sum_1d_array.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LeetCode\easy\shortest_sub_array.py">
           <value>
             <Attribute>
               <option name="separator" value="," />
