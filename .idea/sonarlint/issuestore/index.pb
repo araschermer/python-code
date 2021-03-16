@@ -147,11 +147,11 @@ j
 :100 days of code/intermediate/rain-alert/send_sms_alert.py,1\4\144e520549978604f13fb1332776d9e13eccfa2f
 o
 ?100 days of code/intermediate/rain-alert/get_weather_details.py,2\c\2c293d4e8e9522968001d0316df5e24972017209
-j
-:100 days of code/intermediate/stocks-api/get_stock_news.py,9\e\9e6d900bdfbc4f021a7c2729a1fc40c424b0c27b
-`
-0100 days of code/intermediate/stocks-api/main.py,e\9\e9d6d8dbff0a34ef395acfc0bbd5e3030f233a69
-m
-=100 days of code/intermediate/stocks-api/get_stock_updates.py,9\f\9fe07c24ee61244ca8454e90d2b1bb1cfa0afb7b
-h
-8100 days of code/intermediate/stocks-api/send_message.py,2\2\225f66b405de1925e8b7d467c8ce199b636c31f3
+v
+F100 days of code/intermediate/stock-trading-news-alert/send_message.py,3\2\32e87df9335090206bf53422694fc347c7fa8c0b
+n
+>100 days of code/intermediate/stock-trading-news-alert/main.py,2\d\2d5d66e39443916aba34a88a44cb48db3948a48c
+x
+H100 days of code/intermediate/stock-trading-news-alert/get_stock_news.py,3\3\3365de585dceb55b81dfb9752a6f675ceabe9f34
+{
+K100 days of code/intermediate/stock-trading-news-alert/get_stock_updates.py,7\d\7d0ab1349b6e3b1b6e2a45d41ffeef03299269ce
