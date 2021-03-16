@@ -143,3 +143,15 @@ l
 <100 days of code/intermediate/quizzler-app/question_model.py,9\7\97f0c633cdede16a0d9a594bab7ef27a43b53e82
 b
 2100 days of code/intermediate/quizzler-app/data.py,1\7\179a25cd5bba8d246b1e3cffa32a652c8749f14b
+j
+:100 days of code/intermediate/rain-alert/send_sms_alert.py,1\4\144e520549978604f13fb1332776d9e13eccfa2f
+o
+?100 days of code/intermediate/rain-alert/get_weather_details.py,2\c\2c293d4e8e9522968001d0316df5e24972017209
+j
+:100 days of code/intermediate/stocks-api/get_stock_news.py,9\e\9e6d900bdfbc4f021a7c2729a1fc40c424b0c27b
+`
+0100 days of code/intermediate/stocks-api/main.py,e\9\e9d6d8dbff0a34ef395acfc0bbd5e3030f233a69
+m
+=100 days of code/intermediate/stocks-api/get_stock_updates.py,9\f\9fe07c24ee61244ca8454e90d2b1bb1cfa0afb7b
+h
+8100 days of code/intermediate/stocks-api/send_message.py,2\2\225f66b405de1925e8b7d467c8ce199b636c31f3

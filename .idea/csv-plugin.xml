@@ -290,6 +290,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\stocks-api\fetch_stock_news.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\stocks-api\send_message.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\stocks-api\stock-news-hard-start\get_stock_updates.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\stocks-api\stock-news-hard-start\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\intermediate\turtle-crossing-game\car_manager.py">
           <value>
             <Attribute>
