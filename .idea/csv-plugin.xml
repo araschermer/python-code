@@ -241,6 +241,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\rain-alert\get_weather_details.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\rain-alert\jsondata.json">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\rain-alert\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\rain-alert\send_sms_alert.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\intermediate\snake-game\main.py">
           <value>
             <Attribute>

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/rain-alert/get_weather_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/rain-alert/send_sms_alert.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/API/kanye-quotes-API/kanye_quotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/intermediate/API/kanye-quotes-API/kanye_quotes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/API/kanye-quotes-API/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/intermediate/API/kanye-quotes-API/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/venv/Lib/site-packages/replit/__init__.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/100 days of code/intermediate/turtle-crossing-game" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/100 days of code/intermediate/rain-alert/send_sms_alert.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,7 +61,7 @@
       <recent name="D:\JobSearch21\GIT\python-code\LeetCode\medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.send_sms_alert">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shortest_sub_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="send_sms_alert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode/easy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/rain-alert" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/easy/shortest_sub_array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/rain-alert/send_sms_alert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,18 +169,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.max_sub_array" />
-      <item itemvalue="Python.shortest_sub_array" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.quiz_brain" />
+      <item itemvalue="Python.send_sms_alert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.send_sms_alert" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.quiz_brain" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.max_sub_array" />
-        <item itemvalue="Python.shortest_sub_array" />
       </list>
     </recent_temporary>
   </component>

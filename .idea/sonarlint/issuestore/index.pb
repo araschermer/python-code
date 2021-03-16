@@ -131,3 +131,15 @@ j
 P100 days of code/intermediate/automated-email-sender/daily_motivational_quote.py,c\9\c9e05eaec65b2f314581cbbc6f66b2110c2c0534
 
 O100 days of code/intermediate/automated-email-sender/sunrise-sunset-reminder.py,d\d\dd8d24a0e472381f14927bb231a6fccc61bd04b2
+N
+LeetCode/easy/max_sub_array.py,7\b\7bf5f965494dfd24e73aa7d585ca28f7b1c12bb7
+b
+2100 days of code/intermediate/quizzler-app/main.py,e\3\e31f0727da47724a87fa472e66ff612794ad8554
+h
+8100 days of code/intermediate/quizzler-app/quiz_brain.py,5\4\54cc501f7e3291993d12ca3c0abea661a8cade68
+u
+E100 days of code/intermediate/quizzler-app/quizzler_user_interface.py,0\e\0ea12b7f022edf4274690e9990cd294d6579f098
+l
+<100 days of code/intermediate/quizzler-app/question_model.py,9\7\97f0c633cdede16a0d9a594bab7ef27a43b53e82
+b
+2100 days of code/intermediate/quizzler-app/data.py,1\7\179a25cd5bba8d246b1e3cffa32a652c8749f14b
