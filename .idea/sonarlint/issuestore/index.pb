@@ -155,5 +155,3 @@ x
 H100 days of code/intermediate/stock-trading-news-alert/get_stock_news.py,3\3\3365de585dceb55b81dfb9752a6f675ceabe9f34
 {
 K100 days of code/intermediate/stock-trading-news-alert/get_stock_updates.py,7\d\7d0ab1349b6e3b1b6e2a45d41ffeef03299269ce
-S
-#LeetCode/easy/shortest_sub_array.py,e\a\eab67629ff7f8fa4f88bf16a28f6ee4ffaf8be6e
