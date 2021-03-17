@@ -360,6 +360,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\LeetCode\easy\jewels-and-stones.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\LeetCode\easy\longest-common-prefix.py">
           <value>
             <Attribute>
