@@ -353,10 +353,24 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\100 days of code\intermediate\web scraping (beautiful soup)\scraping empire best 100 movies\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\100 days of code\intermediate\web scraping (beautiful soup)\scraping hacker news\ycombinator-scraper.py">
           <value>
             <Attribute>
               <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\100 days of code\intermediate\web scraping (beautiful soup)\scraping local html file(basics)\main.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>

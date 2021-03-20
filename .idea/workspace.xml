@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc0da03-e7e6-4cdb-a021-f19e9a8220d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping hacker news/ycombinator-scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping empire best 100 movies/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping empire best 100 movies/movies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping local html file(basics)/Cristiano Ronaldo - Wikipedia.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping local html file(basics)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping local html file(basics)/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/venv/Lib/site-packages/replit/__init__.py" />
+    <property name="last.edited.regexp" value="&quot;titleText&quot;&#10;: sometjomg&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/100 days of code/intermediate/rain-alert/send_sms_alert.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,7 +70,29 @@
       <recent name="D:\JobSearch21\GIT\python-code\LeetCode\easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ycombinator-scraper">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping empire best 100 movies" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping empire best 100 movies/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping local html file(basics)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/quizzler-app/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping local html file(basics)/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,28 +129,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\JobSearch21\GIT\python-code\100 days of code\intermediate\stocks-api\main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="send_sms_alert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100 days of code/intermediate/rain-alert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100 days of code/intermediate/rain-alert/send_sms_alert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,19 +210,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.send_sms_alert" />
       <item itemvalue="Python.stock_api" />
       <item itemvalue="Python.shortest_sub_array" />
       <item itemvalue="Python.ycombinator-scraper" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.ycombinator-scraper" />
         <item itemvalue="Python.shortest_sub_array" />
         <item itemvalue="Python.stock_api" />
-        <item itemvalue="Python.send_sms_alert" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -276,9 +280,10 @@
     <SUITE FILE_PATH="coverage/python_code$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1616192576510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 days of code/intermediate/web scrapting (beautiful soup)/Completed+Demo+Code+bs4-end" />
     <SUITE FILE_PATH="coverage/python_code$count_numbers_with_unique_digits.coverage" NAME="count_numbers_with_unique_digits Coverage Results" MODIFIED="1616054363533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/medium" />
     <SUITE FILE_PATH="coverage/python_code$find_distance_value_between_two_arrays.coverage" NAME="find_distance_value_between_two_arrays Coverage Results" MODIFIED="1616022249234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/easy" />
-    <SUITE FILE_PATH="coverage/python_code$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1616183225529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 days of code/intermediate/web scrapting (beautiful soup)" />
+    <SUITE FILE_PATH="coverage/python_code$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1616256384565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping empire best 100 movies" />
     <SUITE FILE_PATH="coverage/python_code$find_the_duplicate_number.coverage" NAME="find_the_duplicate_number Coverage Results" MODIFIED="1616021464919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/medium" />
     <SUITE FILE_PATH="coverage/python_code$single_number.coverage" NAME="single_number Coverage Results" MODIFIED="1616021070739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/easy" />
+    <SUITE FILE_PATH="coverage/python_code$main.coverage" NAME="main Coverage Results" MODIFIED="1616254506006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping local html file(basics)" />
     <SUITE FILE_PATH="coverage/python_code$faculty.coverage" NAME="faculty Coverage Results" MODIFIED="1615977134189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code$google_sheets_API.coverage" NAME="google_sheets_API Coverage Results" MODIFIED="1616006259033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 days of code/intermediate" />
     <SUITE FILE_PATH="coverage/python_code$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1616238062982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/100 days of code/intermediate/web scraping (beautiful soup)/scraping local html file(basics)" />

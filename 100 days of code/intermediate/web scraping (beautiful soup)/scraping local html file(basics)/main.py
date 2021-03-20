@@ -1,14 +1,30 @@
 from bs4 import BeautifulSoup
-
-with open("Cristiano Ronaldo - Wikipedia.html", encoding = "utf-8")as cr7:
-    content = cr7.read()
-# #
+import requests
+try:
+    with open("Cristiano Ronaldo - Wikipedia.html", encoding = "utf-8")as cr7_html:
+        content = cr7_html.read()
+except FileNotFoundError:
+    respose=requests.get('https://en.wikipedia.org/wiki/Cristiano_Ronaldo')
+    content=respose.text
 soup = BeautifulSoup(content, "html.parser")
 # to obtain the text only
-print(soup.text)
+# print(soup.text)
 # to write the text into a file:
 with open("article_content.txt", "w", encoding = "utf-8") as f:
     f.write(soup.text)
+# find the page title
+title=soup.title.text
+print(title)
+
+# find the first div on the page
+div=soup.div
+
+# getting an attribute using find method
+get_element=soup.find("h1", id="firstHeading").text
+print(get_element)
+# @ alternative
+element_content= soup.find("h1", class_="firstHeading")
+element_content=element_content.text
 # to find how many time the name "cristiano ronaldo" appears in the text:
 with open("article_content.txt", "r", encoding = "utf-8") as f:
     text_content = f.read()
