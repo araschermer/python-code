@@ -40,7 +40,7 @@ if today_tuple in birthdays_dict:
     with open(file_path) as letter_template:
         birthday_person = birthdays_dict[today_tuple]
         content = letter_template.read()
-        content = content.replace("[NAME]", birthday_person["name"].title())
+        content = content.replace("[NAME]", birthday_person["name"].item())
 
     # Sends the letter generated in content to that birthday_person's email address.
     with SMTP(get_smtp(SENDER_EMAIL)) as connection:
