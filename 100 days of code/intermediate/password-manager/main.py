@@ -15,7 +15,7 @@ def fill_password():
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def store_data():
-    website = website_entry.get().item()
+    website = website_entry.get().title()
     email = email_entry.get()
     password = password_entry.get()
     new_data_dict = {website: {
@@ -102,10 +102,11 @@ def find_password():
                         data_list.append([website, email, password])
                         messagebox.showinfo(title = "For this Password we have: ",
                                             message = f"website: {website}\nEmail: {email}\n password: {password}")
-                if data_list:
-                    messagebox.showinfo(item = "For this Email/password we have: ",
-                                        message = f"For the searched Email/password we have the following Entries: "
-                                                  f"{[(website, email, password) for [(website, email, password)] in data_list]}")
+                # To print out the relevant data for a given website/email/password (sounds a bit silly, therefore i commented it out )
+                # if data_list:
+                #     messagebox.showinfo(item = "For this Email/password we have: ",
+                #                         message = f"For the searched Email/password we have the following Entries: "
+                #                                   f"{[(website, email, password) for [(website, email, password)] in data_list]}")
 
         data_file.close()
         return website, email, password
