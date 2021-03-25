@@ -1,0 +1,183 @@
+/*
+-->to target elements
+element{
+}
+ -->to target classes
+ .class{
+ }
+ --> to target ids:
+ #id{
+ }*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*Container fluid*/
+.container-fluid {
+    padding: 7% 15% /*3 % to top, bottom , 15 % to left and right */
+}
+
+/*#Title section*/
+#title {
+    font-weight: bold;
+
+    background-color: #ff4c68;
+    text-align: left;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%
+}
+/*Title image*/
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/*Headings*/
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/*Navigation Bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light", sans-serif;
+}
+
+/*Download Buttons*/
+.download-button {
+    margin: 5% 3% 5% 2%;
+}
+
+
+
+/*Features Section*/
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    padding: 4.5%
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+.icon {
+    margin-bottom: 1rem;
+    color: indianred;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/*testimonials*/
+#testimonials {
+    background: #ef8172;
+    color: white;
+}
+
+.testimonial-img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    /*top, left and right, bottom */;
+}
+
+/*Pricing section*/
+#pricing {
+    padding: 10%
+
+}
+
+.pricing-column {
+    padding: 3% 3%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*CTA section*/
+#cta {
+    background: #ff4c68;
+    color: #fff;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+    .title-image {
+        text-align: center;
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}
+
+
+.social-icon {
+    margin: 20px 10px;
+}
