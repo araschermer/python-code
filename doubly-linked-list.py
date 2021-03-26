@@ -11,7 +11,6 @@ class DoublyLinkedList:
 
     def insert_at_beginning(self, data):
         if self.head is None:
-            print(data)
             self.head = Node(data)
             return
         self.head = Node(data, self.head, self.head.previous)
@@ -61,18 +60,54 @@ class DoublyLinkedList:
         tail = pointer
         return tail
 
+    def remove_element_at_beginning(self):
+        if self.head is None:
+            print("The list is already empty")
+        elif self.head.next_node is None:
+            self.head = None
+        else:
+            self.head = self.head.next_node
+            self.head.previous = None
+
+    def remove_last_element(self):
+        pointer = self.head
+        if self.head is None:
+            print("The list is already empty")
+        elif self.head.next_node is None:
+            self.head = None
+
+        else:
+            while pointer.next_node is not None:
+                pointer = pointer.next_node
+            pointer.previous.next_node = None
+
     def print_forwards(self):
         if self.head is None:
             print("List is empty")
             return
-        dls = ""
+        doubly_linked_list = ""
         pointer = self.head
         while pointer is not None:
-            dls += f"{pointer.data}"
+            doubly_linked_list += f"{pointer.data}"
             if pointer.next_node is not None:
-                dls += " --> "
+                doubly_linked_list += " --> "
             pointer = pointer.next_node
-        print(dls)
+        print(doubly_linked_list)
+
+    def reverse_linked_list(self):
+        if self.head is None:
+            print("The list has no element to delete")
+            return
+        p = self.head
+        q = p.next_node
+        p.next_node = None
+        p.previous = q
+        while q is not None:
+            q.previous = q.next_node
+            q.next_node = p
+            p = q
+            q = q.previous
+        self.head = p
 
     def print_reversed_linked_list(self):
         reversed_dls = ""
@@ -110,10 +145,17 @@ if __name__ == "__main__":
     dls.insert_element_at_index(index=1, data="y")
     dls.print_forwards()
     dls.insert_list_starting_index(data_list=["h", "b", "P"], index=3)
+    print("new list:")
     dls.print_forwards()
-    # dls.print_reversed_linked_list()
+    print("remove last element:")
+    dls.remove_last_element()
+    dls.print_forwards()
+    dls.remove_element_at_beginning()
+    print("remove first element:")
+    dls.print_forwards()
+    print("Reverse list")
+    dls.reverse_linked_list()
+    dls.print_forwards()
 
-    # dls.print_reversed_linked_list()
-    # print(f"dls.get_list_length(): {dls.get_list_length()}")
     # print(f"dls.check_valid_index(90):{dls.check_valid_index(90)}")
     # print(f"dls.check_valid_index(1):{dls.check_valid_index(1)}")
