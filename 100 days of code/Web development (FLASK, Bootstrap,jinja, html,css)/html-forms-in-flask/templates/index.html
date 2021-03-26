@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="{{url_for('retrieve_form')}}" method="post">
+        <label>Name</label>
+        <label>
+            <input type="text" placeholder="name" name="username" >
+        </label>
+        <label>Password</label>
+        <label>
+            <input type="text" placeholder="password" name="password" >
+        </label>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
