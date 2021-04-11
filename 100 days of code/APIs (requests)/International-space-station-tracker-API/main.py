@@ -1,14 +1,16 @@
-# https://sunrise-sunset.org/api
 import requests
 from datetime import datetime
 import smtplib
 import time
+import os
 
-SENDER_EMAIL = ""  # to fill
-SENDER_PASSWORD = ""  # to fill
-RECEIVER_EMAIL = ""  # to fill
-LONGITUDE = 13.411440
-LATITUDE = 52.523430
+SENDER_EMAIL = os.environ['SENDER_EMAIL']  # to fill
+SENDER_PASSWORD = os.environ['SENDER_PASSWORD']  # to fill
+RECEIVER_EMAIL = os.environ['RECEIVER_EMAIL']  # to fill
+LONGITUDE = os.environ['LONGITUDE'] # to fill
+LATITUDE = os.environ['LATITUDE']
+SUNRISE_SUNSET_API="https://api.sunrise-sunset.org/json"
+ISS_API="http://api.open-notify.org/iss-now.json"
 # get current location # https://www.latlong.net/ #
 LOCATION_PARAMETERS = {
     "lat": LATITUDE,
@@ -18,8 +20,7 @@ LOCATION_PARAMETERS = {
 
 
 def get_sunrise_sunset_hour(location_parameters):
-    link = "https://api.sunrise-sunset.org/json"
-    loc_param_response = requests.get(link, params = location_parameters)
+    loc_param_response = requests.get(SUNRISE_SUNSET_API, params=location_parameters)
     loc_param_response.raise_for_status()
     loc_data = loc_param_response.json()
     # to convert the sunrise format from :sunrise:2021-03-14T05:20:57+00:00 to 05:20:57
@@ -54,7 +55,7 @@ def get_iss_position():
     """returns iss_latitude and iss_longitude
     :rtype (int,int)
     """
-    response = requests.get(url = "http://api.open-notify.org/iss-now.json")
+    response = requests.get(url=ISS_API)
     response.raise_for_status()
     data = response.json()
     latitude = float(data["iss_position"]["longitude"])
@@ -67,9 +68,9 @@ def send_email(sender_email, password, receiver_email, subject, message):
     and a subject of the email, as well as the message as the body of the Email"""
     with smtplib.SMTP(get_smtp(sender_email)) as connection:
         connection.starttls()
-        connection.login(user = sender_email, password = password)
-        connection.sendmail(from_addr = sender_email, to_addrs = receiver_email,
-                            msg = f"Subject: {subject}\n\n{message}")
+        connection.login(user=sender_email, password=password)
+        connection.sendmail(from_addr=sender_email, to_addrs=receiver_email,
+                            msg=f"Subject: {subject}\n\n{message}")
 
 
 def get_smtp(sender_email):
@@ -88,23 +89,23 @@ def get_smtp(sender_email):
 
 # getting the iss_position
 iss_longitude, iss_latitude = get_iss_position()
-if is_iss_overhead(current_iss_latitude = iss_latitude, current_iss_longitude = iss_longitude, longitude = LONGITUDE,
-                   latitude = LATITUDE, location_parameters = LOCATION_PARAMETERS):
-    send_email(sender_email = SENDER_EMAIL, password = SENDER_PASSWORD,
-               receiver_email = RECEIVER_EMAIL,
-               subject = "Look up", message = "THE INTERNATIONAL SPACE STATION is above you!")
+if is_iss_overhead(current_iss_latitude=iss_latitude, current_iss_longitude=iss_longitude, longitude=LONGITUDE,
+                   latitude=LATITUDE, location_parameters=LOCATION_PARAMETERS):
+    send_email(sender_email=SENDER_EMAIL, password=SENDER_PASSWORD,
+               receiver_email=RECEIVER_EMAIL,
+               subject="Look up", message="THE INTERNATIONAL SPACE STATION is above you!")
 
 
-def montitor_iss_location():
+def monitor_iss_location():
     """ a method that keeps checking the ISS location, and if it is night time and the ISS is above the current location
     then it sends a notification email that the ISS  is overhead"""
     while True:
         time.sleep(60)
         current_iss_longitude, current_iss_latitude = get_iss_position()
-        if is_iss_overhead(current_iss_latitude = current_iss_latitude, current_iss_longitude = current_iss_longitude,
-                           longitude = LONGITUDE,
-                           latitude = LATITUDE, location_parameters = LOCATION_PARAMETERS):
-            send_email(sender_email = SENDER_EMAIL, password = SENDER_PASSWORD,
-                       receiver_email = RECEIVER_EMAIL,
-                       subject = "Look up", message = "THE INTERNATIONAL SPACE STATION is above you!")
+        if is_iss_overhead(current_iss_latitude=current_iss_latitude, current_iss_longitude=current_iss_longitude,
+                           longitude=LONGITUDE,
+                           latitude=LATITUDE, location_parameters=LOCATION_PARAMETERS):
+            send_email(sender_email=SENDER_EMAIL, password=SENDER_PASSWORD,
+                       receiver_email=RECEIVER_EMAIL,
+                       subject="Look up", message="THE INTERNATIONAL SPACE STATION is above you!")
             break
