@@ -66,7 +66,7 @@ both email and password should be saved in the environment variables( or replace
 ### Installation
 
 1. Get the code from the project's file
-   [ISS-API](https://github.com/amgad01/python-code/tree/main/100%20days%20of%20code/APIs%20(requests)/International-space-station-notifier-API)
+   [ISS-Notifier-API](https://github.com/amgad01/python-code/tree/main/100%20days%20of%20code/APIs%20(requests)/International-space-station-notifier-API)
 
 2. Install requests module
    ```sh
