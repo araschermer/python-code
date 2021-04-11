@@ -1,10 +1,7 @@
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">ISS-Location-Notifier</h3>
 
   <p align="center">
     project_description
@@ -47,9 +44,10 @@ As a part of the 100 days of code challenges, The project is written in python t
  message="THE INTERNATIONAL SPACE STATION is above you!"
 
 ### Built With
-
 * [Python](Python)
-*APIs used:[https://api.sunrise-sunset.org/json](sunrise-sunset.org), [http://api.open-notify.org/iss-now.json](open-notify.org)
+## APIs used:
+*[sunrise-sunset.org](https://api.sunrise-sunset.org/json)
+*[open-notify.org](http://api.open-notify.org/iss-now.json)
 
 
 <!-- GETTING STARTED -->
@@ -59,7 +57,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 1-Getting the current longitude and altitude for the user from th [https://www.latlong.net](latlong) website, and save it in the environment variables.
-(or replace the    ```sh $os.environ['LONGITUDE']``` with a string containing the longitude/latitude)
+(or replace the    ```$os.environ['LONGITUDE']``` with a string containing the longitude/latitude)
 2-This API would require an internet connection to check the current sunrise and sunset time for the given location
 3-Sender( and or receiver) Email address, and the password for this email, to enable the automated email notifier, both email and password should be saved in the environment variables( or replace the environment  variables as in step 1).
 4-SMTP for the email if it is not a yahoo, hotmail or gmail email address.
@@ -68,7 +66,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Get the code from the project's file
    ```sh
-   https://github.com/amgad01/python-code/tree/main/100%20days%20of%20code/APIs%20(requests)/International-space-station-notifier-API
+   [ISS-API](https://github.com/amgad01/python-code/tree/main/100%20days%20of%20code/APIs%20(requests)/International-space-station-notifier-API)
    ```
 2. Install requests module
    ```sh
