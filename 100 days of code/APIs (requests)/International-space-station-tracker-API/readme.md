@@ -56,11 +56,11 @@ As a part of the 100 days of code challenges, The project is written in python t
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-1-Getting the current longitude and altitude for the user from th [https://www.latlong.net](latlong) website, and save it in the environment variables._
-(or replace the    ```$os.environ['LONGITUDE']``` with a string containing the longitude/latitude)_
-2-This API would require an internet connection to check the current sunrise and sunset time for the given location._
+1-Getting the current longitude and altitude for the user from th [https://www.latlong.net](latlong) website, and save it in the environment variables.\
+(or replace the    ```$os.environ['LONGITUDE']``` with a string containing the longitude/latitude)\
+2-This API would require an internet connection to check the current sunrise and sunset time for the given location.\
 3-Sender( and or receiver) Email address, and the password for this email, to enable the automated email notifier,
-both email and password should be saved in the environment variables( or replace the environment  variables as in step 1)._
+both email and password should be saved in the environment variables( or replace the environment  variables as in step 1).\
 4-SMTP for the email if it is not a yahoo, hotmail or gmail email address.
 
 ### Installation
