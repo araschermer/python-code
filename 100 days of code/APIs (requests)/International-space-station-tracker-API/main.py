@@ -4,13 +4,13 @@ import smtplib
 import time
 import os
 
-SENDER_EMAIL = os.environ['SENDER_EMAIL']  # to fill
-SENDER_PASSWORD = os.environ['SENDER_PASSWORD']  # to fill
-RECEIVER_EMAIL = os.environ['RECEIVER_EMAIL']  # to fill
-LONGITUDE = os.environ['LONGITUDE'] # to fill
+SENDER_EMAIL = os.environ['SENDER_EMAIL']
+SENDER_PASSWORD = os.environ['SENDER_PASSWORD']
+RECEIVER_EMAIL = os.environ['RECEIVER_EMAIL']
+LONGITUDE = os.environ['LONGITUDE']
 LATITUDE = os.environ['LATITUDE']
-SUNRISE_SUNSET_API="https://api.sunrise-sunset.org/json"
-ISS_API="http://api.open-notify.org/iss-now.json"
+SUNRISE_SUNSET_API = "https://api.sunrise-sunset.org/json"
+ISS_API = "http://api.open-notify.org/iss-now.json"
 # get current location # https://www.latlong.net/ #
 LOCATION_PARAMETERS = {
     "lat": LATITUDE,
@@ -19,7 +19,10 @@ LOCATION_PARAMETERS = {
 }
 
 
-def get_sunrise_sunset_hour(location_parameters):
+def get_sunrise_sunset_hour(location_parameters) -> (int,int):
+    """returns the sunrise and the sunset hours of a given location.
+    :rtype: int,int
+    """
     loc_param_response = requests.get(SUNRISE_SUNSET_API, params=location_parameters)
     loc_param_response.raise_for_status()
     loc_data = loc_param_response.json()
@@ -32,28 +35,41 @@ def get_sunrise_sunset_hour(location_parameters):
     return sunrise_hour, sunset_hour
 
 
-def get_current_hour():
+def get_current_hour() -> int:
+    """returns the current time
+    :rtype int """
+
     current_time = datetime.now()  # # 2021-03-14 17:49:34.546252
     return current_time.hour
 
 
+x = get_current_hour()
+print(type(x))
+
+
 # method to check if the ISS is close to the current location
 # and it is currently dark (to be able to see it)
-def is_iss_overhead(current_iss_latitude, current_iss_longitude, longitude, latitude, location_parameters):
-    if latitude + 5 >= current_iss_latitude >= latitude - 5 and longitude + 5 >= current_iss_longitude >= longitude - 5:
+def is_iss_overhead(current_iss_latitude, current_iss_longitude, longitude, latitude, location_parameters) -> bool:
+    """ checks if the ISS is within 5 degrees from the  given longitude and latitude of a certain location,
+    returns true if the iss is close enough to be seen in the night time, otherwise false
+    :rtype bool"""
+    if latitude + 5 >= current_iss_latitude >= int(latitude) - 5 and int(longitude) + 5 >= current_iss_longitude >=\
+            int(longitude) - 5:
         return is_night_time(location_parameters)
     return False
 
 
-def is_night_time(location_parameters):
+def is_night_time(location_parameters) -> bool:
+    """checks is the current time is between sunset and sunrise, returns true it it is night time, otherwise false.
+     :rtype bool"""
     sunrise_hour, sunset_hour = get_sunrise_sunset_hour(location_parameters)
     if sunset_hour <= get_current_hour() <= sunrise_hour:
         return True
 
 
-def get_iss_position():
+def get_iss_position() -> (float, float):
     """returns iss_latitude and iss_longitude
-    :rtype (int,int)
+    :rtype (float,float)
     """
     response = requests.get(url=ISS_API)
     response.raise_for_status()
@@ -63,7 +79,7 @@ def get_iss_position():
     return longitude, latitude
 
 
-def send_email(sender_email, password, receiver_email, subject, message):
+def send_email(sender_email: str, password: str, receiver_email: str, subject: str, message: str):
     """requires sender_email and the email's password, the  receiver_email
     and a subject of the email, as well as the message as the body of the Email"""
     with smtplib.SMTP(get_smtp(sender_email)) as connection:
@@ -73,7 +89,7 @@ def send_email(sender_email, password, receiver_email, subject, message):
                             msg=f"Subject: {subject}\n\n{message}")
 
 
-def get_smtp(sender_email):
+def get_smtp(sender_email: str) -> str:
     if "yahoo" in sender_email.lower():
         # SMTP_YAHOO = "smtp.mail.yahoo.com"
         return "smtp.mail.yahoo.com"
