@@ -43,9 +43,14 @@ def calculate_hourglass_sum(arr: []) -> int:
     maximum = -9 * 7
     # for _ in range(6):
     #     arr.append(list(map(int, input().rstrip().split())))
+    # since the top and the bottom of the hourglass  have the same size, and address the same indices in the arr rows
+    #  only two for loops would be required
     for i in range(6):
         for j in range(6):
+            # i and j address the start of each hourglass top/bottom, which would be of size 3 elements
+            # therefore i and j would address be at most the elements of index 4 in each row
             if i + 2 < 6 and j + 2 < 6:
+                #  sum( the top of the hourglass:arr[i][j:j + 3]+ the middle point:arr[i + 1][j + 1] + the bottom
                 hourglass_sum = sum(arr[i][j:j + 3]) + arr[i + 1][j + 1] + sum(arr[i + 2][j:j + 3])
                 if hourglass_sum > maximum:
                     maximum = hourglass_sum
