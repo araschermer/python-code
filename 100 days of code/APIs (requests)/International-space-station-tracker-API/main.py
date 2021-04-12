@@ -7,8 +7,8 @@ import os
 SENDER_EMAIL = os.environ['SENDER_EMAIL']
 SENDER_PASSWORD = os.environ['SENDER_PASSWORD']
 RECEIVER_EMAIL = os.environ['RECEIVER_EMAIL']
-LONGITUDE = os.environ['LONGITUDE']
-LATITUDE = os.environ['LATITUDE']
+LONGITUDE = float(os.environ['LONGITUDE'])
+LATITUDE = float(os.environ['LATITUDE'])
 SUNRISE_SUNSET_API = "https://api.sunrise-sunset.org/json"
 ISS_API = "http://api.open-notify.org/iss-now.json"
 # get current location # https://www.latlong.net/ #
@@ -19,7 +19,7 @@ LOCATION_PARAMETERS = {
 }
 
 
-def get_sunrise_sunset_hour(location_parameters) -> (int,int):
+def get_sunrise_sunset_hour(location_parameters) -> (int, int):
     """returns the sunrise and the sunset hours of a given location.
     :rtype: int,int
     """
@@ -53,8 +53,8 @@ def is_iss_overhead(current_iss_latitude, current_iss_longitude, longitude, lati
     """ checks if the ISS is within 5 degrees from the  given longitude and latitude of a certain location,
     returns true if the iss is close enough to be seen in the night time, otherwise false
     :rtype bool"""
-    if latitude + 5 >= current_iss_latitude >= int(latitude) - 5 and int(longitude) + 5 >= current_iss_longitude >=\
-            int(longitude) - 5:
+    if latitude + 5 >= current_iss_latitude >= latitude - 5 and longitude + 5 >= current_iss_longitude >= \
+            longitude - 5:
         return is_night_time(location_parameters)
     return False
 
