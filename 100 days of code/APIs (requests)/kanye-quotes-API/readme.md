@@ -40,8 +40,8 @@ Shows a random kanye west's quote
 For his quotes fame, regardless of how much sense they make!, this project is to fetch kanye quotes from the kanye.rest api and  show them in a simple view in a tkinter window and caches the quotes for later need.
 ## Example:
   ```sh
-   Kanye Says:\
-I wish I had a friend like me\
+   Kanye Says:
+I wish I had a friend like me
    ```
 
 ### Built With
