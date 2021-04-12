@@ -41,14 +41,14 @@ For his quotes fame, regardless of how much sense they make!, this project is to
 ## Example:
   ```sh
    Kanye Says:
-I wish I had a friend like me
+      I wish I had a friend like me
    ```
 
 ### Built With
 * [Python](Python)
 
 ### APIs used:
-*[kanye.rest](https://api.kanye.rest/)
+* [kanye.rest](https://api.kanye.rest/)
 
 
 
