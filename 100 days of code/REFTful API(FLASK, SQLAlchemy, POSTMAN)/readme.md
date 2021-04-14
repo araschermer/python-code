@@ -15,14 +15,11 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h2 style="display: inline-block">Projects</h2></summary>
   <ol>
-    <li>
-      <a href="#projects">Projects</a>
       <ul>
         <li><a href="https://github.com/amgad01/python-code/tree/main/100%20days%20of%20code/REFTful%20API(FLASK%2C%20SQLAlchemy%2C%20POSTMAN)/cafe-api">CAFE-API</a></li>
       </ul>
-    </li>
 
   </ol>
 </details>
