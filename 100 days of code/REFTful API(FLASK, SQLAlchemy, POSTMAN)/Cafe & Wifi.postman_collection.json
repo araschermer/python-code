@@ -1,0 +1,277 @@
+{
+	"info": {
+		"_postman_id": "42fcfb77-8529-4f97-89d8-30f6de8490b2",
+		"name": "Cafe & Wifi",
+		"description": "to search the cafe DB for a cafe that matches a queried location.\n-Use /search route to perform the search\n-Use the loc parameter to pass the location",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search Cafe By Location",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "loc",
+						"value": "Peckham",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?loc=FICTIONLAND",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "loc",
+							"value": "FICTIONLAND"
+						}
+					]
+				},
+				"description": "searches the Cafes DB for a cafe entry in a given location.\n\nExample:\nhttp://127.0.0.1:5000/search?loc=FICTIONLAND"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Cafes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"all"
+					]
+				},
+				"description": "To retrieve all the cafes saved in the DB.\nUse /all  route to fetch all the cafes.\n\nExample:http://127.0.0.1:5000/all."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Ranodm Cafe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/random",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"random"
+					]
+				},
+				"description": "Use /random to get a random cafe from the cafes saved in the DB.\n\nExample:http://127.0.0.1:5000/random"
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Cafe",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "FICTIONAL",
+							"type": "text"
+						},
+						{
+							"key": "map_url",
+							"value": "https://goo.gl/maps/XPrcFj91LsQBvUa2733",
+							"type": "text"
+						},
+						{
+							"key": "img_url",
+							"value": "https://images.adsttc.com/media/images/5014/ec99/28ba/0d58/2800/0d0f/large_jpg/stringio.jpg?1414576924",
+							"type": "text"
+						},
+						{
+							"key": "loc",
+							"value": "FICTIONLAND",
+							"type": "text"
+						},
+						{
+							"key": "seats",
+							"value": "50",
+							"type": "text"
+						},
+						{
+							"key": "has_toilet",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "has_wifi",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "has_sockets",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "can_take_calls",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "coffee_price",
+							"value": "£3.00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"add"
+					]
+				},
+				"description": "Adds a new cafe to the DB  though defining the following attributes   \n#id = db.Column(db.Integer, primary_key=True)\n#name = db.Column(db.String(250), unique=True, nullable=False)\n\n#map_url = db.Column(db.String(500), nullable=False)\n\n#img_url = db.Column(db.String(500), nullable=False)\n\n#location = db.Column(db.String(250), nullable=False)\n\n#seats = db.Column(db.String(250), nullable=False)\n\n#has_toilet = db.Column(db.Boolean, nullable=False)\n\n#has_wifi = db.Column(db.Boolean, nullable=False)\n\n#has_sockets = db.Column(db.Boolean, nullable=False)\n\n#can_take_calls = db.Column(db.Boolean, nullable=False)\n\n#coffee_price = db.Column(db.String(250), nullable=True)"
+			},
+			"response": []
+		},
+		{
+			"name": "Report Closed Cafe",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/report-closed/22?api-key=TopSecretAPIKey",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"report-closed",
+						"22"
+					],
+					"query": [
+						{
+							"key": "api-key",
+							"value": "TopSecretAPIKey"
+						}
+					]
+				},
+				"description": "deletes a cafe entry of a given id from the DB:\nexample:\nhttp://127.0.0.1:5000/report-closed/22?api-key=TopSecretAPIKey\n\n22: id for finctional cafe\n\napi-key=TopSecretAPIKey"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Price",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/update-price/22?new_price=3333",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"update-price",
+						"22"
+					],
+					"query": [
+						{
+							"key": "new_price",
+							"value": "3333"
+						}
+					]
+				},
+				"description": "updates the coffee_price in the cafe entry of the given id.\nExample:\nhttp://127.0.0.1:5000/update-price/22?new_price=3333\n\n22: Cafe id\n\nnew_price=3333: updates price to the given value"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Number Of Seats",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/update-seats/22?seats=55555",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"update-seats",
+						"22"
+					],
+					"query": [
+						{
+							"key": "seats",
+							"value": "55555"
+						}
+					]
+				},
+				"description": "Updates the number of seats in the cafe entry of the given id.\nExample:\nhttp://127.0.0.1:5000/update-seats/22?seats=55555\n\n22:cafe id\n\nseats=55555: new value for the number of seats in the cafe"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,49 @@
+<br />
+<p align="center">
+
+  <h3 align="center">RESTful APIs</h3>
+
+  <p align="center">
+    project_description
+    <br />
+ RESTful APIs in python using Flask, SQLAlchemy, and tested using POSTMAN 
+   <br />
+    <br />
+  </p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#projects">Projects</a>
+      <ul>
+        <li><a href="#project">CAFE-API</a></li>
+      </ul>
+    </li>
+
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+These projects were developed, documented and tested for the sake of improving one's skills in the following programming languages and frameworks
+* [Python](https://www.python.org/)
+* [SQLAlchemy/SQLLite](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) 
+* [POSTMAN](https://learning.postman.com/)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+* [html](html)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+1-download the project's file and install the `FLASK module` and `flask_sqlalchemy`.\
+2- check the `readme.md` file in each project directory
+
