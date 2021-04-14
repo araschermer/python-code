@@ -20,7 +20,7 @@
     <li>
       <a href="#projects">Projects</a>
       <ul>
-        <li><a href="#project">CAFE-API</a></li>
+        <li><a href="https://github.com/amgad01/python-code/tree/main/100%20days%20of%20code/REFTful%20API(FLASK%2C%20SQLAlchemy%2C%20POSTMAN)/cafe-api">CAFE-API</a></li>
       </ul>
     </li>
 
