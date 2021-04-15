@@ -1,5 +1,5 @@
 from question_model import Question
-from data import question_data, get_question
+from data import get_question
 from quiz_brain import QuizBrain
 from quizzler_user_interface import QuizzlerInterface
 
@@ -8,7 +8,7 @@ from quizzler_user_interface import QuizzlerInterface
 # question_data=get_question()
 
 question_bank = []
-for question in question_data:
+for question in get_question():
     question_text = question["question"]
     question_answer = question["correct_answer"]
     new_question = Question(question_text, question_answer)
