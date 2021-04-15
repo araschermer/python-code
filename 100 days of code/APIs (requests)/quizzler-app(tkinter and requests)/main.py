@@ -15,7 +15,7 @@ for question in get_question():
     question_answer = question["correct_answer"]
     # create an Question object  of the current question and answer
     new_question = Question(question_text, question_answer)
-    # and then append the question object to the question_bank
+    # append the question object to the question_bank
     question_bank.append(new_question)
 
 # create new quiz out of the question_bank
