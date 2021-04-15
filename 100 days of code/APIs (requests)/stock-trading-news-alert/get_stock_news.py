@@ -1,6 +1,7 @@
 import os
 
 import requests
+
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 
@@ -17,7 +18,7 @@ def get_news(company_name: str, number_or_articles: int) -> [str]:
         "apiKey": os.environ.get("NEWS_API_KEY"),
         "qInTitle": company_name,
     }
-    news_response = requests.get(url = NEWS_ENDPOINT, params = news_params)
+    news_response = requests.get(url=NEWS_ENDPOINT, params=news_params)
     articles = news_response.json()['articles']
     chosen_articles = articles[0:number_or_articles]  # getting the first three relevant articles form the news api
     formatted_content = [f"Headline: {article['title']}.\nBrief: {article['description']}.\nRead more: {article['url']}"
