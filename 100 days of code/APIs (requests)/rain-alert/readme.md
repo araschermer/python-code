@@ -37,8 +37,8 @@ The Rain alert project: To send an SMS message with the weather updates and info
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project handles  the API authentication and automation. In this project , the [open weather map api](https://api.openweathermap.org) is used to obtain the weather information for a location defined by a latitude and longitude.
-and using the [Twilio ](http://twil.io/secure) sms service to send a message using the twilio api to a given number with the weather updates 
+This project handles the API authentication and  scripts automation. In this project , the [open weather map api](https://api.openweathermap.org) is used to obtain the weather information for a location defined by a latitude and longitude.
+Also using the [Twilio ](http://twil.io/secure) sms service to send a message using the twilio api to a given number with the weather updates 
 
 
 ### Built in:
@@ -46,7 +46,7 @@ and using the [Twilio ](http://twil.io/secure) sms service to send a message usi
 
 ### Modules used:
 * [requests](https://pypi.org/project/requests/)
-* [twilio](twilio.rest)
+* [twilio](https://www.twilio.com/docs/libraries/python)
 ### APIs used:
 * [open weather map ](https://api.openweathermap.org/data/2.5/onecall)
 
