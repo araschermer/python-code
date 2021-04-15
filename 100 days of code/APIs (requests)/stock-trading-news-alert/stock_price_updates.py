@@ -11,7 +11,7 @@ def get_stock_latest_info(stock: str):
         "symbol": stock,
         "apikey": os.environ.get("STOCK_API_KEY")
     }
-    response = requests.get(STOCK_ENDPOINT, params = stock_params)
+    response = requests.get(STOCK_ENDPOINT, params=stock_params)
     # print(response.json())
     data = response.json()["Time Series (Daily)"]
     data_list = [value for (key, value) in data.items()]

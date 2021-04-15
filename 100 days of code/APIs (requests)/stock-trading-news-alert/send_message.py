@@ -1,7 +1,7 @@
 import os
 from twilio.rest import Client
-from get_stock_news import get_news
-from get_stock_updates import get_stock_latest_info
+from stock_news import get_news
+from stock_price_updates import get_stock_latest_info
 
 
 def send_messages(stock: str, company_name: str, number_of_messages):
