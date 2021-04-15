@@ -38,6 +38,7 @@ class QuizzlerInterface:
         self.window.mainloop()
 
     def show_question(self):
+        """Shows the Quiz questions and the user's scores in the UI """
         # to activate the buttons again for the next question
         self.false_button.config(state="active")
         self.true_button.config(state="active")
@@ -57,7 +58,7 @@ class QuizzlerInterface:
         # after the user chooses an answer and clicks a button, the buttons are disabled until the answer is evaluated
         # and the user is shown the feedback.
 
-    def true_pressed(self, ):
+    def true_pressed(self ):
         self.true_button.config(state="disabled")
         self.check_answer("true")
 
@@ -66,9 +67,11 @@ class QuizzlerInterface:
         self.check_answer("false")
 
     def check_answer(self, answer):
+        """Checks the user's answer to the current question."""
         self.show_feedback(self.quiz.check_answer(answer))
 
     def show_feedback(self, answer_evaluation: bool):
+        """gives the user feedback on his answers, green if the answer is correct, otherwise red."""
         if answer_evaluation:
             self.canvas.config(bg='spring green')
         else:
