@@ -62,7 +62,7 @@ To get a local copy up and running follow these simple steps.
 2-install and import the `requests` module and the `twilio.rest` module.\
 3- get a private `API_KEY` from [openweathermap](openweathermap.org)  and save it in the environment variables.\
 4- get a `TWILIO_VERIFIED_RECEIVER_NUMBER`, `TWILIO_SENDER_NUMBER`, `account_sid` and `auth_token` from [twilio](twilio.com/console) and save them in the environment variables .\
-3- run the `get_weather_details.py` script
+5- run the `get_weather_details.py` script
 
 ### Automation 
 This script  can also be automatically executed by as on pythonanywhere service as explained in the comments in the `send_sms_alert.py` script.
