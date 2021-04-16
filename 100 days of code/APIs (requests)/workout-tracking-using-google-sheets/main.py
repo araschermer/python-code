@@ -19,19 +19,19 @@ headers = {
     "x-remote-user-id": "0",
 }
 # Setup API Credentials
-response = requests.get(url = Base_URL, headers = headers)
+response = requests.get(url=Base_URL, headers=headers)
 print(response.status_code)
 print(response.text)
 
 #  create unauthenticated post request
 query_params = {
-    "query": input("Tell me which exercises did you do?"),
+    "query": input("Which exercises did you do today?"),
     "gender": f"{USER_GENDER}",
     "weight_kg": float(USER_WEIGHT),
     "height_cm": int(USER_HEIGHT),
     "age": int(USER_AGE)
 }
-post_response = requests.post(url = exercise_endpoint, json = query_params, headers = headers)
+post_response = requests.post(url=exercise_endpoint, json=query_params, headers=headers)
 print(post_response.json())
 results = post_response.json()
 print(post_response.status_code)
@@ -65,8 +65,8 @@ for exercise in results["exercises"]:
     }
     sheet_authentication_response = requests.post(
         sheet_endpoint,
-        json = nutritionix_exercise_data,
-        headers = bearer_headers
+        json=nutritionix_exercise_data,
+        headers=bearer_headers
     )
     print(sheet_authentication_response.status_code)
     print(sheet_authentication_response.json())
