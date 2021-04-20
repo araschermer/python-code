@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">SQLLite-practice</h3>
+  <h3 align="center">SQLite-practice</h3>
 
   <p align="center">
     project_description
@@ -34,7 +34,7 @@ In this project I provide the implementation and documentation of my first exper
 * [sqlite3](https://docs.python.org/3/library/sqlite3.html)
 * [sqlalchemy](https://docs.sqlalchemy.org/en/14/)
 
-######Example: 
+###### Example: 
 ```py
 # 1- CREATE AND CONNECT TO THE DATABASE
 connection = sqlite3.connect("movies.db")
