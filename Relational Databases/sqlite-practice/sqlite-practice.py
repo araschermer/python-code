@@ -8,7 +8,7 @@ cursor = connection.cursor()
 cursor.execute('''CREATE TABLE IF NOT EXISTS Movies(Title TEXT, Director TEXT, Year INT)''')
 
 # adding entries to the movies DB
-# cursor.execute("INSERT INTO Movies VALUES ('Taxi Driver', 'Martin Scorsese', 1976)")
+cursor.execute("INSERT INTO Movies VALUES ('Taxi Driver', 'Martin Scorsese', 1976)")
 
 # RETRIEVING A SINGLE RECORD/ENTRY
 cursor.execute("SELECT * FROM Movies")  # select all columns in the movies table
@@ -54,6 +54,7 @@ def delete(value):
 def update(column, old_value, new_value):
     cursor.execute(f"UPDATE Movies SET {column} ={new_value} WHERE {column} ={old_value}")
     connection.commit()
+
 
 # Testing
 print("Testing database")
