@@ -6,7 +6,7 @@
   <p align="center">
     project_description
     <br />
-In this project I provide the implementation and documentation of my first experience working on of examples, challenges and practice of SQLite, one of the most popular open-source relational database management systems .<br />
+In this project I provide the implementation and documentation of my first experience working on of examples, challenges and practice of SQLite, one of the most popular open-source relational database management systems.<br />
     <br />
   </p>
 <!-- TABLE OF CONTENTS -->
