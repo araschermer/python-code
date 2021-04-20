@@ -7,7 +7,7 @@
     project_description
     <br />
 A stored procedure is a group of SQL statements that has been created and stored in the database. A stored procedure will accept input parameters so that a single procedure can be used over the network by several clients using different input data.
-Stored procedures are associated with the database not the application, therefore  it is more practical to create the procedure in the shell before using it in the python application<br />
+Stored procedures are associated with the database not the application, therefore  it is more practical to create the procedure in the shell as shown in this <a href="https://github.com/amgad01/python-code/tree/main/Relational%20Databases/postgresql-practice/stored-procedures#example-using-command-line">example</a>, before using it in the python application<br />
     <br />
   </p>
 <!-- TABLE OF CONTENTS -->
@@ -41,17 +41,17 @@ Stored procedures are associated with the database not the application, therefor
 ###### Example using command line:
 in the ```SQL shell```
 
-```
-# activate/connect to a database 
-[comment]: <> (    \c database_name )
-[comment]: <> (     example:)
+```postgresql
+-- # activate/connect to a database 
+-- [comment]: <> (    \c database_name )
+-- [comment]: <> (     example:)
      \c red30
-[comment]: <> (# to create a stored procedure:)
+-- [comment]: <> (# to create a stored procedure:)
 	 \h CREATE PROCEDURE
-[comment]: <> (# $$  double dollar sign indicates the start of the body procedure)
-[comment]: <> (# BEGIN : use begin and end for consistancy, so a procedure is treated as a transaction)
-[comment]: <> (# use $ before numbers )
-[comment]: <> (## example of creating a procedure that updates the  database when an item is returned &#40;for an item without any discounts applied&#41;)
+-- [comment]: <> (# $$  double dollar sign indicates the start of the body procedure)
+-- [comment]: <> (# BEGIN : use begin and end for consistancy, so a procedure is treated as a transaction)
+-- [comment]: <> (# use $ before numbers )
+-- [comment]: <> (## example of creating a procedure that updates the  database when an item is returned &#40;for an item without any discounts applied&#41;)
 red30=# \h CREATE PROCEDURE
 Command:     CREATE PROCEDURE
 Description: define a new procedure
@@ -79,8 +79,7 @@ red30$# end;
 red30$# $$;
 CREATE PROCEDURE
 red30=#
-
-[comment]: <> (# to call a procedure :)
+-- [comment]: <> (# to call a procedure :)
 	CALL return_nondiscounted_items(1105910,1);
 ```
 The stored procedure can be used later in the application as shown in examples in ```sqlalchemycore-storedproc.py``` and ```sqlalchemyorm_storedproc.py```
