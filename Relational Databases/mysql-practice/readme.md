@@ -37,7 +37,7 @@ In this project I provide the implementation and documentation of my first exper
 * [sqlalchemy.orm ](https://docs.sqlalchemy.org/en/14/orm/)
 * [pandas](https://pandas.pydata.org/)
 
-######Example: 
+###### Example: 
 ```py
 # connecting to a database  projects and using a connection on the localhost
 def connect():
@@ -48,7 +48,7 @@ def connect():
     except Error as e:
         print(e)
 ```
-######Example using command line:
+###### Example using command line:
 1-navigate to : C:\Program Files\MySQL\MySQL Server 8.0\bin\
 1-open shell or command prompt:'
 ```sh
