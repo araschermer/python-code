@@ -1,12 +1,12 @@
 <br />
 <p align="center">
 
-  <h3 align="center">SQLLite-practice</h3>
+  <h3 align="center">Mysql-practice</h3>
 
   <p align="center">
     project_description
     <br />
-In this project I provide the implementation and documentation of my first experience working on of examples, challenges and practice of SQLite, one of the most popular open-source relational database management systems.<br />
+In this project I provide the implementation and documentation of my first experience working on of examples, challenges and practice of Mysql, one of the most popular open-source relational database management systems.<br />
     <br />
   </p>
 <!-- TABLE OF CONTENTS -->
