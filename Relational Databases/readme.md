@@ -37,14 +37,14 @@ In this project I provide the implementation and documentation of my first exper
 
 
 ### Examples :
-####Check the directories of each of the following implementation of examples, challenges and practice of  three most popular open-source relational database management systems:
+#### Check the directories of each of the following implementation of examples, challenges and practice of  three most popular open-source relational database management systems:
 * [SQLLite](https://github.com/amgad01/python-code/tree/main/Relational%20Databases/sqlite-practice)
 * [MySQL](https://github.com/amgad01/python-code/tree/main/Relational%20Databases/mysql-practice)
 * [PostgreSQL](https://github.com/amgad01/python-code/tree/main/Relational%20Databases/postgresql-practice)
 
 
 <!-- GETTING STARTED -->
-##Getting Started
+## Getting Started
 Check the readme file of each  directory.
 <!-- LICENSE -->
 ## License
