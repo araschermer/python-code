@@ -7,7 +7,12 @@
     • {{ interest }}<br>
   {%endfor%}
 </p>
-<h4> Here are some of the existing blogs </h4>
+<div id="overview">
+  <h3><a href="{{ url_for('signup') }}">Signup for the Newsletter </a></h3>
+</div>
+<br>
+<h4> Here are some of the blogs </h4>
+<br>
 {% for post in posts%}
   <h3>Title:{{post.title}}></h3>
   <h4>Content: {{post.content}}</h4>
