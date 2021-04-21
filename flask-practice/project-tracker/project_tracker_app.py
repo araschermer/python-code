@@ -4,7 +4,10 @@ import os
 
 from sqlalchemy import String, Integer, ForeignKey
 
+# get the stored  password for the postgresql database from the environment variables
 password = os.environ.get('PASSWORD')
+
+# get the stored  flask application secret key from the environment variables.
 secret_key = os.environ.get("SECRET_KEY")
 
 app = Flask(__name__)
@@ -15,6 +18,7 @@ app.config['SECRET_KEY'] = secret_key
 project_tracker_db = SQLAlchemy(app)
 
 
+# create an orm for the projects and tasks tables
 class Project(project_tracker_db.Model):
     __tablename__ = 'projects'
 
@@ -36,18 +40,22 @@ class Task(project_tracker_db.Model):
 
 @app.route("/")
 def show_projects():
+    """Shows the stored projects in the database"""
     # Project.query.all() to retrieve all projects from the DB
     return render_template("index.html", projects=Project.query.all())
 
 
 @app.route("/project/<project_id>")
 def show_task(project_id):
+    """shows the tasks of a project that are stored in the database, given the project_id"""
     return render_template("project_tasks.html", project=Project.query.filter_by(project_id=project_id).first(),
                            tasks=Task.query.filter_by(project_id=project_id).all())
 
 
 @app.route("/add/project", methods=["POST"])
 def add_project():
+    """adds a new project to the database"""
+    # if title of new project is empty
     if not request.form['project-title']:
         flash("Enter a title for the project", "red")
     else:
@@ -60,7 +68,8 @@ def add_project():
 
 @app.route("/add/task/<project_id>", methods=["POST"])
 def add_task(project_id):
-    # is task description is empty
+    """add a new task to a project given the project id"""
+    # task description is empty
     if not request.form['task-description']:
         flash("Enter a task description for the new task", "red")
     else:
@@ -76,6 +85,7 @@ def add_task(project_id):
 # if a user deletes a project that still contains tasks, remove the project and all its tasks form the database
 @app.route("/delete/task/<task_id>", methods=['POST'])
 def delete_task(task_id):
+    """deletes a task from a project and removes it from the database"""
     task_to_delete = Task.query.filter_by(task_id=task_id).first()
     project_id = task_to_delete.project.project_id
     project_tracker_db.session.delete(task_to_delete)
@@ -85,6 +95,7 @@ def delete_task(task_id):
 
 @app.route("/delete/project/<project_id>", methods=['POST'])
 def delete_project(project_id):
+    """deletes a project from the database"""
     project_to_delete = Project.query.filter_by(project_id=project_id).first()
     project_tracker_db.session.delete(project_to_delete)
     project_tracker_db.session.commit()

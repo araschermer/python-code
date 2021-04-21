@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2> Welcome to the Blog!</h2>
+<p>Here i provide some information about my interests, such as:
+  <br>
+  {% for interest in interests %}
+    • {{ interest }}<br>
+  {%endfor%}
+</p>
+<h4> Here are some of the existing blogs </h4>
+{% for post in posts%}
+  <h3>Title:{{post.title}}></h3>
+  <h4>Content: {{post.content}}</h4>
+<br>
+{% endfor%}
+{% endblock%}

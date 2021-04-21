@@ -27,6 +27,7 @@ In this Flask-Practice, I provide my implementation and documentation of project
 it  has the functionality to add, delete and view projects or tasks that can be stored in a database "project_tracker"</ul>
       </ul>
 
+
   </ol>
 </details>
 
@@ -43,12 +44,13 @@ These projects were developed, documented and tested to improve one's skills  ma
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Installation 
+Install the following modules 
+* `flask ` 
+* `psycopg2` 
+* `sqlalchemy` 
+* `flask_sqlalchemy`
 
-To get a local copy up and running follow these simple steps.
-
-1-Download the project's file and install the `fLASK ` `psycopg2`, `sqlalchemy` and `flask_sqlalchemy`.\
-2- check the `readme.md` file in each project directory
 
 ## example of a simple flask project
 ```py
