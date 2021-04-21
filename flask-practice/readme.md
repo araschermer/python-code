@@ -21,12 +21,16 @@ In this Flask-Practice, I provide my implementation and documentation of project
 <details open="open">
   <summary><h2 style="display: inline-block">Projects</h2></summary>
   <ol>
-      <ul>
-        <li><a href="https://github.com/amgad01/python-code/tree/main/flask-practice/project-tracker">Project-Tracker</a></li>
+        <ul>
+        <li><a href="https://github.com/amgad01/python-code/tree/main/flask-practice/basic_blog">Basic Blog</a></li>
+        <ul>about the project: this project is implemented  to practice the basic functionality of flask, jinja2, flask-wtforms  </ul>
+      </ul>
+<ul>
+        <li><a href="https://github.com/amgad01/python-code/tree/main/flask-practice/project-tracker">Project Tracker</a></li>
         <ul>about the project:  project tracker is  designed to record projects and the associated tasks in a database using PostgreSQL as RDBMS
 it  has the functionality to add, delete and view projects or tasks that can be stored in a database "project_tracker"</ul>
       </ul>
-
+    
 
   </ol>
 </details>
