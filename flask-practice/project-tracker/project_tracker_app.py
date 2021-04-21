@@ -7,7 +7,7 @@ from sqlalchemy import String, Integer, ForeignKey
 # get the stored  password for the postgresql database from the environment variables
 password = os.environ.get('PASSWORD')
 
-# get the stored  flask application secret key from the environment variables.
+# get the stored flask application secret key from the environment variables, which is set to use flask-wtforms
 secret_key = os.environ.get("SECRET_KEY")
 
 app = Flask(__name__)
