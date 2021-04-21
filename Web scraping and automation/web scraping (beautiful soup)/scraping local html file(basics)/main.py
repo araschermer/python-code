@@ -12,7 +12,7 @@ soup = BeautifulSoup(content, "html.parser")
 # to obtain the text only
 # print(soup.text)
 # to write the text into a file:
-with open("article_content.txt", "w", encoding = "utf-8") as f:
+with open("article_content.txt", "w", encoding ="utf-8") as f:
     f.write(soup.text)
 # find the page item
 title=soup.title.text
@@ -28,7 +28,7 @@ print(get_element)
 element_content= soup.find("h1", class_="firstHeading")
 element_content=element_content.text
 # to find how many time the name "cristiano ronaldo" appears in the text:
-with open("article_content.txt", "r", encoding = "utf-8") as f:
+with open("article_content.txt", "r", encoding ="utf-8") as f:
     text_content = f.read()
 #
 Cristiano_Ronaldo = text_content.count("Cristiano Ronaldo")
@@ -62,7 +62,7 @@ for tag in anchor_tags:
 for tag in anchor_tags:
     print(tag.get("href"))
 # to save each link with the text attached to it in a  .txt file
-with open("links.txt", 'w', encoding = "utf-8") as file:
+with open("links.txt", 'w', encoding ="utf-8") as file:
     for tag in anchor_tags:
         file.write(f"{tag.getText()}: {tag.get('href')}\n")
 # to select an element inside another element:

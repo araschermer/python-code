@@ -28,6 +28,6 @@ for index in titles_indices[:-1]: # to print the last item once
     print(title)
 
 for movie in best_100_movies:
-    with open('best_100_movies.txt',"a") as best_100_movies_file:
+    with open('best_100_movies.txt', "a") as best_100_movies_file:
         best_100_movies_file.write(f"{movie}\n")
 
