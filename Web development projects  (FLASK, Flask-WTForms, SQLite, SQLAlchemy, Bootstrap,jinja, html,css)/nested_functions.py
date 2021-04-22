@@ -14,7 +14,7 @@ def divide(n1, n2):
     return n1 / n2
 
 
-# Functions are first-class objects, can be passed around as arguments e.g. int/string/float etc.
+# Functions are first-class objects, can be passed around as arguments.
 
 def calculate(calc_function, n1, n2):
     return calc_function(n1, n2)
@@ -29,14 +29,14 @@ print(result)
 # functions can be nested in other functions
 
 def outer_function():
-    print("I'm outer")
+    print("Outer Function")
 
     def nested_function():
-        print("I'm inner")
+        print("Inner Function")
 
     return nested_function  # nested function is not activated here...
 
 
 # to activate nested function
 inner_function = outer_function()
-inner_function()  # now it is activated
+inner_function()  # now the inner_function/nested_function is activated

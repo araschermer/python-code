@@ -1,10 +1,12 @@
 import time
 
 
+#
+#
 def delay_decorator(function):
     def wrapper_function():
         # add something before the function
-        time.sleep(2)
+        time.sleep(5)
         function()  # also can just modify the function
         function()  # such as running the function twice
         # add something after the function
@@ -12,29 +14,31 @@ def delay_decorator(function):
     return wrapper_function
 
 
+#
+#
 @delay_decorator
 def say_hello():
     print("Hello!")
 
 
+#
 def say_greetings():
     print("Greetings!")
 
 
+#
+# print hello after 5 seconds delay
 say_hello()
+
+
 delay_decorator(say_greetings)  # does not work this way
-decorated_function = delay_decorator(say_greetings) # without parentheses
-decorated_function()
 
-
-@delay_decorator
-def say_bye():
-    print("Bye!")
-
-
+# an alternative to using @decorator_name is to call the outer_function and pass the function name and save te
+# function call in a variable. then call the inner_function.
+inner_wrapper_function = delay_decorator(say_greetings)  # without parentheses
+inner_wrapper_function()
+#
 #  calculating the runtime of functions
-
-
 current_time = time.time()
 print(current_time)
 

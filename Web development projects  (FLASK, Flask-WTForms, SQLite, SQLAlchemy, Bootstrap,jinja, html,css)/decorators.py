@@ -6,10 +6,12 @@ class User:
         self.is_logged_in = False
 
 
-def is_authenticated_decorator(function):
+def is_authenticated_decorator(function_):
+    """Triggers a function is the user a condition (is_logged_in) if fulfilled."""
     def wrapper(*args, **kwargs):
+        # checks if a user (passed as the first argument) is logged in
         if args[0].is_logged_in:
-            function(args[0])
+            function_(args[0])
 
     return wrapper
 
