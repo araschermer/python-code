@@ -50,6 +50,13 @@ In this Flask-Practice, I provide my implementation and documentation of project
 it  has the functionality to add, delete and view projects or tasks that can be stored in a database "project_tracker".</details>
 <br />
 </ul>
+<ul>
+        <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/flask-forms(secrets)">Flask-Forms(Secret)</a></li>
+        <details><br /><em><b>Flask-Forms(Secrets)</b></em>  a website that holds some secrets. Only with the right username and password can you access the page that contains secrets..
+            <ul> - Used modules: <em> flask</em>, <em> flask_wtf</em>,  <em> wtforms</em>,  <em> flask_bootstrap</em></ul>
+</details>
+<br />
+</ul>
   </ol>
 
 
@@ -67,6 +74,8 @@ These projects were developed, documented and tested to improve one's skills  ma
 * [SQLite](#SQLite)
 * [PostgreSQL](#PostgreSQL)
 * [requests](https://pypi.org/project/requests/)
+* [Bootstrap](Bootstrap)
+* [Flask_Bootstrap](https://pythonhosted.org/Flask-Bootstrap)
 
 
 <!-- GETTING STARTED -->
@@ -77,6 +86,9 @@ Install the following modules
 * `sqlalchemy` 
 * `flask_sqlalchemy`
 * `requests`
+* `flask_wtf`
+* `wtforms`
+* `flask_bootstrap`
 
 
 ## example of a simple flask project

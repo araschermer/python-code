@@ -6,14 +6,18 @@ from flask_bootstrap import Bootstrap
 
 
 class LoginForm(FlaskForm):
+    # if email is empty : it shows "please fill out this field"
     email = StringField(label='Email', validators=[DataRequired(), Email()])
+    # password should not be empty, and contains at least 8 characters
     password = PasswordField(label='Password', validators=[DataRequired(), Length(min=8)])
     submit = SubmitField(label="Log In")
 
 
 app = Flask(__name__)
 app.secret_key = "some-secret-string"
+# this app requires Bootstrap since index.html extends 'bootstrap/base.html' and import "bootstrap/wtf.html"
 Bootstrap(app)
+
 
 
 @app.route("/")
