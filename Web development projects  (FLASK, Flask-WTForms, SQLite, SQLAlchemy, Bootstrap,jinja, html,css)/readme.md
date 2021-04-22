@@ -67,9 +67,9 @@ it  has the functionality to add, delete and view projects or tasks that can be 
 </details>
       </ul><br />
   </ol>
+</details>
 
-
-<!-- ABOUT THE PROJECT -->
+[comment]: <> (<!-- ABOUT THE PROJECT -->)
 ## About The Project
 These projects were developed, documented and tested to improve one's skills  mainly in the following programming languages and frameworks
 * [Python](https://www.python.org/)
@@ -87,7 +87,7 @@ These projects were developed, documented and tested to improve one's skills  ma
 * [Flask_Bootstrap](https://pythonhosted.org/Flask-Bootstrap)
 
 
-<!-- GETTING STARTED -->
+[comment]: <> (<!-- GETTING STARTED -->)
 ## Installation 
 Install the following modules 
 * `flask ` 
