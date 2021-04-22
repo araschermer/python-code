@@ -28,14 +28,19 @@ In this Flask-Practice, I provide my implementation and documentation of project
       </ul></ul> 
 <ul>
         <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/blog">Simple Blog</a></li>
-        <ul>about the project: Simple Blog  with a number of blog posts that are retrieved through requests from the <a href="https://api.npoint.io"> npoint api</a> and render the  different post content in simple html template structure.
-            <li> Used modules: <em> flask</em>, <em> requests</em> 
-</li>
+        <ul>about the project: <em><b>Simple Blog</b></em> with a number of blog posts that are retrieved through requests from the <a href="https://api.npoint.io"> npoint api</a> and render the  different post content in simple html template structure.
+            <li> Used modules: <em> flask</em>, <em> requests</em></li>
+</ul>
+</ul>
+<ul>
+        <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/clean-blog">Clean Blog</a></li>
+        <ul>about the project: <em><b>Clean Blog</b></em> with a number of blog posts that are retrieved through requests from the <a href="https://api.npoint.io"> npoint api</a> and render the different post content, <em></em><b>about page,contact form</b><em></em> in a Blog that is based on the <a href="https://startbootstrap.com/previews/clean-blog"> Clean Blog template.</a>  With the functionality to sends an email automatically when the contact form is submitted.
+            <li> Used modules: <em> flask</em>, <em> requests</em>,  <em> smtplib</em></li>
 </ul>
 </ul>
  <ul>
         <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/project-tracker">Project Tracker</a></li>
-        <ul>about the project: <em><b>Project Tracker</b></em> is designed to record projects and the associated tasks in a database using PostgreSQL as RDBMS
+        <ul>about the project: <em><b>Project Tracker</b></em> is designed to record projects and the associated tasks in a database using<a href="#PostgreSQL"> PostgreSQL</a>  as RDBMS
 it  has the functionality to add, delete and view projects or tasks that can be stored in a database "project_tracker"</ul>
       </ul>
   </ol>
@@ -47,15 +52,15 @@ it  has the functionality to add, delete and view projects or tasks that can be 
 ## About The Project
 These projects were developed, documented and tested to improve one's skills  mainly in the following programming languages and frameworks
 * [Python](https://www.python.org/)
-* [html5](html5)
-* [CSS](CSS)
-* [Javascript](Javascript)
+* [html5](#html5)
+* [CSS](#CSS)
+* [Javascript](#Javascript)
 * [flask](https://flask.palletsprojects.com/en/1.1.x/)
 * [jinja2](https://jinja.palletsprojects.com/)
 * [flask_sqlalchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) 
-* [SQLalchemy](SQLalchemy)
-* [SQLite](SQLite)
-* [PostgreSQL](PostgreSQL)
+* [SQLalchemy](#SQLalchemy)
+* [SQLite](#SQLite)
+* [PostgreSQL](#PostgreSQL)
 * [requests](https://pypi.org/project/requests/)
 
 
