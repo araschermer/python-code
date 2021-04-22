@@ -30,12 +30,20 @@ it  has the functionality to add, delete and view projects or tasks that can be 
 <br />
 </ul>
         <ul>
+        <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/library">Library</a></li>
+        <details> <br/> Coffee and wifi: a webpage that shows the books stored in a <a href="#SQLite">Sqlite</a> database using <a href="#Sqlalchemy">Sqlalchemy</a>,  with the user book title, author's name and rating of each book. This webpage project of the library  has the functionality to add, delete or edit the information of the books already stored in the database.
+            <ul> - Used modules: <em> flask</em>, <em> flask_wtf</em>,  <em> wtforms</em>,  <em> flask_bootstrap</em>,<em> flask_sqlalchemy</em></ul>
+</details>
+      </ul>
+<br />
+<ul>
         <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/coffee-and-wifi">Coffee and Wifi</a></li>
         <details> <br/> Coffee and wifi: a webpage that shows Cafe-Name, Location, Opening time,	Closing time and the user evaluation of the Coffee, Wifi and Power socket availability in each cafe stored in a csv file. it has the functionality to add a new cafe and store it in the local csv file.
             <ul> - Used modules: <em> flask</em>, <em> flask_wtf</em>,  <em> wtforms</em>,  <em> flask_bootstrap</em>,<em> csv</em></ul>
 </details>
       </ul>
 <br />
+
 <ul>
         <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/flask-forms(secrets)">Flask-Forms(Secret)</a></li>
         <details><br /><em><b>Flask-Forms(Secrets)</b></em> a website that holds some secrets. Only with the right username and password can you access the page that contains secrets..
