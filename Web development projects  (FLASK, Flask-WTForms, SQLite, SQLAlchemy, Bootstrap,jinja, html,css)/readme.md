@@ -22,6 +22,12 @@ In this Flask-Practice, I provide my implementation and documentation of project
   <summary><h2 style="display: inline-block">Projects</h2></summary>
   <ol>
         <ul>
+        <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/html-forms-in-flask">Basic-HTML-Form</a></li>
+        <details> <br/>Implementation of a basic html form in flask.
+            <ul>- Used modules: <em> flask</em></ul>
+</details>
+      </ul><br />
+<ul>
         <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)/basic_blog">Basic Blog</a></li>
         <details> <br/>this project is implemented  to practice the basic functionality of flask, jinja2, flask-wtforms.
             <ul>- Used modules: <em> flask</em>, <em> flask_wtf</em>, <em> wtforms</em></ul>
