@@ -19,7 +19,7 @@ In this project, I provide implementation and documentation of the projects I di
   <ol>
     <ul>
             <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/hacker%20hacker%20news">Scraping Hacker news (ycombinator website)</a></li>
-            <details><br /> A Project to scrap a live website and get the links on the website that are related to the posted stories, and the trending story with the most upvote.</details>
+            <details><br /> A Project to scrap a live website <a href="https://news.ycombinator.com/news">ycombinator website</a> and get the titles and links of the  posted news stories on the website , and the trending stories with the most upvote.</details>
                 <ul> - Used modules: <em> requests</em>, <em> bs4</em></ul>
     </ul> <br/>
     <ul>
