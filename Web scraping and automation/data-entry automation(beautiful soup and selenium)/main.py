@@ -7,7 +7,8 @@ from selenium.webdriver.common.keys import Keys
 
 # Using beautiful soup to get the apartments info
 header = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko)"
+                  " Chrome/84.0.4147.125 Safari/537.36",
     "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8"
 }
 # creating a request to get the page
@@ -22,6 +23,7 @@ response = requests.get("https://www.zillow.com/homes/for_rent/1-_beds/?searchQu
                         "%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22%3Afalse%7D%2C%22pf%22%3A%7B%22value%22%3Afalse%7D"
                         "%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D",
                         headers = header).text
+
 soup = BeautifulSoup(response, "html.parser")  # processing the page py BeautifulSoup
 # print(soup)
 links = soup.select(".list-card-info a")  # by inspecting the online page, it is found that the list-card-info class
@@ -71,6 +73,6 @@ for index, (link, address) in enumerate(links_address_dict.items()):
     submit_xpath = '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div/div/span'
     submit_btn = driver.find_element_by_xpath(submit_xpath)
     submit_btn.click()
-    # return to submit  the next appartment info
+    # return to submit  the next apartment info
     click_return_btn = driver.find_element_by_xpath('/html/body/div[1]/div[2]/div[1]/div/div[4]/a')
     click_return_btn.click()

@@ -16,33 +16,58 @@ In this project, I provide implementation and documentation of the projects I di
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Projects</h2></summary>
-  <ol>
+<ol>
+    <details open="open">
+      <summary><h2 style="display: inline-block">Project Using Beautiful Soup</h2></summary>
+      <ol>
+        <ul>
+                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Musical Time Machine (scraping Billboard top 100 list and creating spotify playlist)</a></li>
+                <details><br /> Musical Time Machine: Scraping the top 100 list of songs of a given date form the <a href="https://www.billboard.com/charts/hot-100/"> Billboard hot 100 list</a> and using the <a href="https://developer.spotify.com/documentation/web-api/">spotify API</a>  to connect to spotify and create a playlist with the top 100 songs  and return a link to this spotify list</details>
+                    <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>spotipy</em></ul>
+        </ul> <br/> 
     <ul>
-            <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Musical Time Machine (scraping Billboard top 100 list and creating spotify playlist)</a></li>
-            <details><br /> Musical Time Machine: Scraping the top 100 list of songs of a given date form the <a href="https://www.billboard.com/charts/hot-100/"> Billboard hot 100 list</a> and using the <a href="https://developer.spotify.com/documentation/web-api/">spotify API</a>  to connect to spotify and create a playlist with the top 100 songs  and return a link to this spotify list</details>
-                <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>spotipy</em></ul>
-    </ul> <br/> 
-<ul>
-            <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/amazon-price-tracker">Amazon Proce Tracker</a></li>
-            <details><br /> A project to scrap a live website.<br> Given url to a product on  <a href="https://www.amazon.com">Amazon website</a>, This project is to track the current price of the product and send a notification email with with the price update to the given email once the price goes below a given minimum price </details>
-                <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>smtplib</em></ul>
-    </ul> <br/>
-<ul>
-            <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Scraping Best 100 movies list(empire website)</a></li>
-            <details><br /> A project to scrap a live website, <a href="https://www.empireonline.com/movies/features/best-movies-2/">empire online</a>. Getting the Empire's list of the best 100 movies of all time – as voted by readers. and printing the list of the 100 movies  containing the order and the title of each movie</details>
-                <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>re</em></ul>
-    </ul> <br/>
+                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/amazon-price-tracker">Amazon Proce Tracker</a></li>
+                <details><br /> A project to scrap a live website.<br> Given url to a product on  <a href="https://www.amazon.com">Amazon website</a>, This project is to track the current price of the product and send a notification email with with the price update to the given email once the price goes below a given minimum price </details>
+                    <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>smtplib</em></ul>
+        </ul> <br/>
     <ul>
-            <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/hacker%20hacker%20news">Scraping Hacker news (ycombinator website)</a></li>
-            <details><br /> A project to scrap a live website, <a href="https://news.ycombinator.com/news">ycombinator website</a>, to get the titles and links of the  posted news stories on the website , and the trending stories with the most upvote.</details>
-                <ul> - Used modules: <em> requests</em>, <em> bs4</em></ul>
-    </ul> <br/>
-    <ul>
-            <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20wikipedia%20article">Scraping Wikipedia Article</a></li>
-            <details><br /> A project using the basics of Beautiful soup to scrap the content of a wikipedia article form the local file or using a get request with the link to the live article.<br>
-    The local file is compressed just for simplicity and can be extracted to view the content or work with the file, otherwise a get request to the article link will also work.</details>
-                <ul> - Used modules: <em> requests</em>, <em> bs4</em> </ul>
-    </ul>
+                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Scraping Best 100 movies list(empire website)</a></li>
+                <details><br /> A project to scrap a live website, <a href="https://www.empireonline.com/movies/features/best-movies-2/">empire online</a>. Getting the Empire's list of the best 100 movies of all time – as voted by readers. and printing the list of the 100 movies  containing the order and the title of each movie</details>
+                    <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>re</em></ul>
+        </ul> <br/>
+        <ul>
+                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/hacker%20hacker%20news">Scraping Hacker news (ycombinator website)</a></li>
+                <details><br /> A project to scrap a live website, <a href="https://news.ycombinator.com/news">ycombinator website</a>, to get the titles and links of the  posted news stories on the website , and the trending stories with the most upvote.</details>
+                    <ul> - Used modules: <em> requests</em>, <em> bs4</em></ul>
+        </ul> <br/>
+        <ul>
+                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20wikipedia%20article">Scraping Wikipedia Article</a></li>
+                <details><br /> A project using the basics of Beautiful soup to scrap the content of a wikipedia article form the local file or using a get request with the link to the live article.<br>
+        The local file is compressed just for simplicity and can be extracted to view the content or work with the file, otherwise a get request to the article link will also work.</details>
+                    <ul> - Used modules: <em> requests</em>, <em> bs4</em> </ul>
+        </ul>
+    </ol>
+    </details>
+ <details open="open">
+      <summary><h2 style="display: inline-block">Project Using Beautiful Soup and Selenium</h2></summary>
+      <ol>
+        <ul>
+                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/data-entry%20automation(beautiful%20soup%20and%20selenium)">Data-Entry Automation</a></li>
+                <details><br /> In this project, I used <a >Selenium</a> and <a>Beautiful Soup</a>  to implement an automate a tool that gets all apartments listings form 
+ the <a href="https://www.zillow.com">Zillow</a> website and all important information related to the listings and eventually use the obtained information to fill out a Google form.
+
+I used Beautiful Soup to get:
+- Addresses of the properties    
+-  Prices of the properties
+- Links to the ads on the website
+I also used Selenium to fill out a Google Form with all the information that was obtained from the previous step
+</details>
+                    <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>selenium</em></ul>
+        </ul> <br/> 
+
+    </ol>
+    </details>
+
 
   </ol>
 </details>
