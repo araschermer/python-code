@@ -18,6 +18,11 @@ In this project, I provide implementation and documentation of the projects I di
   <summary><h2 style="display: inline-block">Projects</h2></summary>
   <ol>
     <ul>
+            <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Musical Time Machine (scraping Billboard top 100 list and creating spotify playlist)</a></li>
+            <details><br /> Musical Time Machine: Scraping the top 100 list of songs of a given date form the <a href="https://www.billboard.com/charts/hot-100/"> Billboard hot 100 list</a> and using the <a href="https://developer.spotify.com/documentation/web-api/">spotify API</a>  to connect to spotify and create a playlist with the top 100 songs  and return a link to this spotify list</details>
+                <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>spotipy</em></ul>
+    </ul> <br/> 
+<ul>
             <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Scraping Best 100 movies list(empire website)</a></li>
             <details><br /> A project to scrap a live website, <a href="https://www.empireonline.com/movies/features/best-movies-2/">empire online</a>. Getting the Empire's list of the best 100 movies of all time – as voted by readers. and printing the list of the 100 movies  containing the order and the title of each movie</details>
                 <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>re</em></ul>
@@ -53,6 +58,7 @@ Install the following modules
 * `smtplib` 
 * `requests` 
 * `re`
+* `spotipy`
 
 ## Example of a get request to and parsing the response with `BeautifulSoup` 
 ```py
