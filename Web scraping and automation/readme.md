@@ -23,6 +23,11 @@ In this project, I provide implementation and documentation of the projects I di
                 <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>spotipy</em></ul>
     </ul> <br/> 
 <ul>
+            <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/amazon-price-tracker">Amazon Proce Tracker</a></li>
+            <details><br /> A project to scrap a live website.<br> Given url to a product on  <a href="https://www.amazon.com">Amazon website</a>, This project is to track the current price of the product and send a notification email with with the price update to the given email once the price goes below a given minimum price </details>
+                <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>smtplib</em></ul>
+    </ul> <br/>
+<ul>
             <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Scraping Best 100 movies list(empire website)</a></li>
             <details><br /> A project to scrap a live website, <a href="https://www.empireonline.com/movies/features/best-movies-2/">empire online</a>. Getting the Empire's list of the best 100 movies of all time – as voted by readers. and printing the list of the 100 movies  containing the order and the title of each movie</details>
                 <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>re</em></ul>
