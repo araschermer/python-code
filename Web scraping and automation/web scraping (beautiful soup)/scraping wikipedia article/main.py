@@ -3,7 +3,7 @@ import requests
 
 try:
     # the file is zipped and in the same folder, otherwise the script will still work
-    # a long as there's internet access for the http request
+    # as long as there's internet access for the http request
     with open("Cristiano Ronaldo - Wikipedia.html", encoding="utf-8")as cr7_html:
         content = cr7_html.read()
 except FileNotFoundError:
