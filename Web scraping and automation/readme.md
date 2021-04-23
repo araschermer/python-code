@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Web Acraping and Automation </h3>
+  <h3 align="center">Web Scraping and Automation </h3>
 
   <p align="center">
     project_description
@@ -18,15 +18,20 @@ In this project, I provide implementation and documentation of the projects I di
   <summary><h2 style="display: inline-block">Projects</h2></summary>
   <ol>
     <ul>
+            <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Scraping Best 100 movies list(empire website)</a></li>
+            <details><br /> A project to scrap a live website, <a href="https://www.empireonline.com/movies/features/best-movies-2/">empire online</a>. Getting the Empire's list of the best 100 movies of all time – as voted by readers. and printing the list of the 100 movies  containing the order and the title of each movie</details>
+                <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>re</em></ul>
+    </ul> <br/>
+    <ul>
             <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/hacker%20hacker%20news">Scraping Hacker news (ycombinator website)</a></li>
-            <details><br /> A Project to scrap a live website <a href="https://news.ycombinator.com/news">ycombinator website</a> and get the titles and links of the  posted news stories on the website , and the trending stories with the most upvote.</details>
+            <details><br /> A project to scrap a live website, <a href="https://news.ycombinator.com/news">ycombinator website</a>, to get the titles and links of the  posted news stories on the website , and the trending stories with the most upvote.</details>
                 <ul> - Used modules: <em> requests</em>, <em> bs4</em></ul>
     </ul> <br/>
     <ul>
             <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20wikipedia%20article">Scraping Wikipedia Article</a></li>
-            <details><br /> A Project using the basics of Beautiful soup to scrap the content of a wikipedia article form the local file or using a get request with the link to the live article.<br>
+            <details><br /> A project using the basics of Beautiful soup to scrap the content of a wikipedia article form the local file or using a get request with the link to the live article.<br>
     The local file is compressed just for simplicity and can be extracted to view the content or work with the file, otherwise a get request to the article link will also work.</details>
-                <ul> - Used modules: <em> requests</em>, <em> bs4</em></ul>
+                <ul> - Used modules: <em> requests</em>, <em> bs4</em> </ul>
     </ul>
 
   </ol>
