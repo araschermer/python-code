@@ -79,7 +79,7 @@ First: the bot checks out the internet speed on <a href="https://www.speedtest.c
 If either of these properties are below their promised values, then the Bot logs in <a href="https://www.twitter.com"> Twitter</a> with given a username and password (that are stored in the environment variables) and tweets to the internet provider with  a complaint  containing the current download/upload/ping speed.
 - In check_speed_test.py, I implemented the internet speed checking automation.<br>
 <br /></details>
-            <ul> - Used modules: <em>selenium</em></ul> 
+            <ul> - Used modules: <em>selenium</em></ul> <br />
             <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>, TWITTER <code>username</code> and <code>password</code> as <code>TWITTER_USERNAME</code>,<code>TWITTER_PASSWORD</code> in the environment variables and run the <code>main.py </code> file.</ul> 
 </ul><br/>
 
