@@ -75,8 +75,7 @@ I also used Selenium to fill out a Google Form with all the information that was
  <details open="open">
       <summary><h2 style="display: inline-block">Projects Using Selenium</h2></summary>
       <ol>
-        <ul>
-                <li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/upcoming-events(python.org).py">Upcoming events (python.org
+        <ul><li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/upcoming-events(python.org).py">Upcoming events (python.org
 )</a></li>
                 <details><br /> In this project, I use <a >Selenium</a> to automate  the chrome browser to get to the <a>python.org</a> website and get the upcoming events listed in the main page.</details>
 
@@ -84,6 +83,14 @@ I also used Selenium to fill out a Google Form with all the information that was
 - to run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>upcoming-events(python.org).py </code> file. </ul> <br/>
     </ol>
     </details>
+
+<ol>
+        <ul><li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/LAB%20Report%20Signup.py">LAB-REPORT signup</a></li>
+                <details><br /> In this project, I implement simple <a >Selenium</a>  functionality to in order to automate the chrome browser to fill out a form and click submit on a given webpage.</details>
+
+<ul> - Used modules: <em>selenium</em>, <em>selenium.webdriver.common.keys</em></ul> 
+- to run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>LAB Report Signup.py</code> file. </ul> <br/>
+    </ol>
   </ol>
 </details>
 
