@@ -73,6 +73,13 @@ I also used Selenium to fill out a Google Form with all the information that was
     <details open="open">
       <summary><h2 style="display: inline-block">Projects Using Selenium</h2></summary>
         <ol>
+<ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/instagram%20following%20bot">Instagram following Bot</a></li>
+<details><br /> In this project, I use <a >Selenium</a> to automate a web driver to get to the <a href="https://instagram.com"> Instagram </a> website  and login with a given user name and password, then redirects to a given account url, then shows the followers to this given account and start following them( and ignores the ones that are already being followed from that account that the bot operates).<br /></details>
+            <ul> - Used modules: <em>selenium</em></ul> <br/>
+            <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>, Instagram <code>username</code> and <code>password</code> as <code>INSTA_USERNAME</code>,<code>INSTA_PASSWORD</code> in the environment variables and run the <code>main.py </code> file.</ul> 
+</ul><br/>
+
+
 <ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/Linkedin%20application">Automated Linkedin Job Application Bot</a></li>
 <details><br /> In this project, I use <a >Selenium</a> to automate the chrome browser to get to the <a href="https://linkedin.com"> Linkedin </a> website  and login with a given user name and password , enter a search term for the job search, go to the jobs page and save for all the available jobs or apply for the available jobs with an easy application option.<br /></details>
             <ul> - Used modules: <em>selenium</em></ul> <br/>

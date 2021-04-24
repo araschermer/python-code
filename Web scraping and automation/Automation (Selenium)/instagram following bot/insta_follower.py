@@ -11,6 +11,7 @@ class InstaFollower:
         self.login_username = os.environ.get('INSTA_USERNAME')
         self.login_password = os.environ.get('INSTA_PASSWORD')
         self.driver = webdriver.Chrome(CHROME_DRIVER)
+        self.to_follow_account_url = 'https://www.instagram.com/chefsteps/'
 
     def login(self):
         self.driver.get("https://www.instagram.com/accounts/login/")
@@ -30,12 +31,12 @@ class InstaFollower:
         # alternative 01
         followers_full_xpath = '/html/body/div[1]/section/main/div/header/section/ul/li[2]/a'
         time.sleep(5)
-        self.driver.get(f"https://www.instagram.com/chefsteps/")
+        self.driver.get(self.to_follow_account_url)
         time.sleep(2)
         followers = self.driver.find_element_by_xpath(followers_full_xpath)
         followers.click()
         # #alternative 02
-        # followers=self.driver.get(f"https://www.instagram.com/chefsteps/followers/")
+        # followers=self.driver.get(f"{self.to_follow_account_url}followers/")
         time.sleep(2)
         modal = self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div[2]/ul/div')
         for _ in range(10):
