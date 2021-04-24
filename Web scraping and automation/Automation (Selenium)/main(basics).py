@@ -9,9 +9,9 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.keys import Keys
 
 CHROME_DRIVER = os.environ.get('CHROME_DRIVER')
-driver = webdriver.Chrome(executable_path = CHROME_DRIVER)
-driver.get("http://www.amazon.com")
- # getting the page title:
+driver = webdriver.Chrome(executable_path=CHROME_DRIVER)
+driver.get("https://www.amazon.com")
+# getting the page title:
 print(driver.title)
 # accessing an element happens using the one of the following properties
 # id, or  the xpath (both are unique to the element)
@@ -24,15 +24,15 @@ search = driver.find_element_by_name("s")
 search.send_keys("test")
 search.send_keys(Keys.ENTER)
 try:
-    #searching a key word and printing the results
+    # searching a key word and printing the results
     main = WebDriverWait(driver, 2).until(
         expected_conditions.presence_of_element_located((By.ID, "main")))
-    articles=main.find_elements_by_tag_name("article")
+    articles = main.find_elements_by_tag_name("article")
     for article in articles:
         head = article.find_element_by_class_name("entry-summary")
         print(f"\n {head.text}\n")
     # to navigate to another page:
-    #navigating to between pages and signing up for a course
+    # navigating to between pages and signing up for a course
     driver.refresh()
     element = WebDriverWait(driver, 1).until(
         expected_conditions.presence_of_element_located((By.LINK_TEXT, "Python Programming")))
