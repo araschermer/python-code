@@ -73,10 +73,16 @@ I also used Selenium to fill out a Google Form with all the information that was
     <details open="open">
       <summary><h2 style="display: inline-block">Projects Using Selenium</h2></summary>
         <ol>
+<ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/Linkedin%20application">Automated Linkedin Job Application Bot</a></li>
+<details><br /> In this project, I use <a >Selenium</a> to automate the chrome browser to get to the <a href="https://linkedin.com"> Linkedin </a> website  and login with a given user name and password , enter a search term for the job search, go to the jobs page and save for all the available jobs or apply for the available jobs with an easy application option.<br /></details>
+            <ul> - Used modules: <em>selenium</em></ul> <br/>
+            <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>, Linkedin <code>username</code> and <code>password</code> as <code>LINKEDIN_USERNAME</code>,<code>LINKEDIN_PASSWORD</code> in the environment variables and run the <code>main.py </code> file.</ul> 
+</ul><br/>
+
 <ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/The%20Cookie%20clicker%20(BOT)">Cookie Clicker Bot</a></li>
 <details><br /> In this project, I use <a >Selenium</a>  in <code>classic-cookie-clicker-bot.py</code> to automate the chrome browser to get to the <a href="https://orteil.dashnet.org/experiments/cookie/"> Classic Cookie Clicker game </a> website and click on the cookie to bake cookies, and each five seconds buy the item with the highest affordable price form the item list.<br />In <code>upgraded_cookie_clicker_bot.py</code>, I implemented the chrome driver to play the upgraded version of the <a href="https://orteil.dashnet.org/cookieclicker/"> Cookie clicker</a>.</details>
             <ul> - Used modules: <em>selenium</em>, <em>selenium.webdriver.common.action_chains</em></ul> <br/>
-            <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>upcoming-events(python.org).py </code> file.</ul> 
+            <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>upgraded_cookie_clicker_bot.py</code> or the classic-cookie-clicker-bot.py file.</ul> 
 </ul><br/>
 
 

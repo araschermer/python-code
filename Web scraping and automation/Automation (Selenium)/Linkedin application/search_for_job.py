@@ -5,7 +5,7 @@ import time
 
 def search_for_job(search_term, driver):
     time.sleep(3)
-    search = driver.find_element_by_xpath('/html/body/div[9]/header/div[2]/div/div/div[1]/div[2]/input')
+    search = driver.find_element_by_xpath('/html/body/div[8]/header/div[2]/div/div/div[1]/div[2]/input')
     search.send_keys(search_term)
     search.send_keys(Keys.ENTER)
     # to redirect to the all jobs page:
