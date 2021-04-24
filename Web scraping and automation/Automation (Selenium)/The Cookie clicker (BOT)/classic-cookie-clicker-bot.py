@@ -1,13 +1,9 @@
 import os
 import time
-
 from selenium import webdriver
-
 CHROME_DRIVER = os.environ.get('CHROME_DRIVER')
-
 driver = webdriver.Chrome(CHROME_DRIVER)
-driver.get("http://orteil.dashnet.org/experiments/cookie/")
-
+driver.get("https://orteil.dashnet.org/experiments/cookie/")
 # Get cookie
 cookie = driver.find_element_by_id("cookie")
 

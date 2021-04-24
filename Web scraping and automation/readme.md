@@ -1,9 +1,9 @@
 <br />
-<p align="center">
+<p >
 
-  <h3 align="center">Web Scraping and Automation </h3>
+<h3 align="center">Web Scraping and Automation </h3>
 
-  <p align="center">
+  <p >
     project_description
     <br />
 Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites using the Hypertext Transfer Protocol or a web browser.
@@ -14,9 +14,8 @@ In this project, I provide implementation and documentation of the projects I di
   </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Projects</h2></summary>
-<ol> 
+<summary><h2 style="display: inline-block">Projects</h2></summary>
+<!---[comment]: <> (Projects Using Beautiful Soup&#41;)--->
 <!---[comment]: <> (Projects Using Beautiful Soup&#41;)--->
     <details open="open">
       <summary><h2 style="display: inline-block">Projects Using Beautiful Soup</h2></summary>
@@ -27,7 +26,7 @@ In this project, I provide implementation and documentation of the projects I di
                     <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>spotipy</em></ul>
         </ul> <br/> 
     <ul>
-                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/amazon-price-tracker">Amazon Proce Tracker</a></li>
+                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/amazon-price-tracker">Amazon Price Tracker</a></li>
                 <details><br /> A project to scrap a live website.<br> Given url to a product on  <a href="https://www.amazon.com">Amazon website</a>, This project is to track the current price of the product and send a notification email with with the price update to the given email once the price goes below a given minimum price </details>
                     <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>smtplib</em></ul>
         </ul> <br/>
@@ -47,18 +46,18 @@ In this project, I provide implementation and documentation of the projects I di
         The local file is compressed just for simplicity and can be extracted to view the content or work with the file, otherwise a get request to the article link will also work.</details>
                     <ul> - Used modules: <em> requests</em>, <em> bs4</em> </ul>
         </ul>
-    </ol>
+        </ol>
     </details>
+<!---[comment]: <> (Project Using Beautiful Soup and Selenium)--->
+<!---[comment]: <> (Project Using Beautiful Soup and Selenium)--->
+<!---[comment]: <> (Project Using Beautiful Soup and Selenium)--->
+<!---[comment]: <> (Project Using Beautiful Soup and Selenium)--->
+<br />
 
-[comment]: <> (Project Using Beautiful Soup and Selenium)
- <details open="open">
-      <summary><h2 style="display: inline-block">Projects Using Beautiful Soup and Selenium</h2></summary>
-      <ol>
-        <ul>
-                <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/data-entry%20automation(beautiful%20soup%20and%20selenium)">Data-Entry Automation</a></li>
+ <details open="open"><summary><h2 style="display: inline-block">Projects Using Beautiful Soup and Selenium</h2></summary>
+      <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/data-entry%20automation(beautiful%20soup%20and%20selenium)">Data-Entry Automation</a></li>
                 <details><br /> In this project, I used <a >Selenium</a> and <a>Beautiful Soup</a>  to implement an automate a tool that gets all apartments listings form 
  the <a href="https://www.zillow.com">Zillow</a> website and all important information related to the listings and eventually use the obtained information to fill out a Google form.
-
 I used Beautiful Soup to get:
 - Addresses of the properties    
 -  Prices of the properties
@@ -66,96 +65,109 @@ I used Beautiful Soup to get:
 I also used Selenium to fill out a Google Form with all the information that was obtained from the previous step
 </details>
                     <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>selenium</em></ul>
-        </ul> <br/>
-    </ol>
-    </details>
-
-
-[comment]: <> (Project Using Selenium)
- <details open="open">
+        </ul> </ol></details>
+<!---[comment]: <> (Project Using Selenium)--->
+<!---[comment]: <> (Project Using Selenium)--->
+<!---[comment]: <> (Project Using Selenium)--->
+<!---[comment]: <> (Project Using Selenium)--->
+    <details open="open">
       <summary><h2 style="display: inline-block">Projects Using Selenium</h2></summary>
-      <ol>
-        <ul><li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/upcoming-events(python.org).py">Upcoming events (python.org
-)</a></li>
+        <ol>
+<ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/The%20Cookie%20clicker%20(BOT)">Cookie Clicker Bot</a></li>
+<details><br /> In this project, I use <a >Selenium</a>  in <code>classic-cookie-clicker-bot.py</code> to automate the chrome browser to get to the <a href="https://orteil.dashnet.org/experiments/cookie/"> Classic Cookie Clicker game </a> website and click on the cookie to bake cookies, and each five seconds buy the item with the highest affordable price form the item list.<br />In <code>upgraded_cookie_clicker_bot.py</code>, I implemented the chrome driver to play the upgraded version of the <a href="https://orteil.dashnet.org/cookieclicker/"> Cookie clicker</a>.</details>
+            <ul> - Used modules: <em>selenium</em>, <em>selenium.webdriver.common.action_chains</em></ul> <br/>
+            <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>upcoming-events(python.org).py </code> file.</ul> 
+</ul><br/>
+
+
+   <ul><li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/upcoming-events(python.org).py">Upcoming events (python.org)</a></li>
                 <details><br /> In this project, I use <a >Selenium</a> to automate  the chrome browser to get to the <a>python.org</a> website and get the upcoming events listed in the main page.</details>
 
-<ul> - Used modules: <em>selenium</em></ul> 
-- to run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>upcoming-events(python.org).py </code> file. </ul> <br/>
-    </ol>
-    </details>
+<ul> - Used modules: <em>selenium</em></ul> <br>
+<ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>upcoming-events(python.org).py </code> file.</ul> <br/>
+</ul>
+</ol>
+
 
 <ol>
         <ul><li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/LAB%20Report%20Signup.py">LAB-REPORT signup</a></li>
                 <details><br /> In this project, I implement simple <a >Selenium</a>  functionality to in order to automate the chrome browser to fill out a form and click submit on a given webpage.</details>
+            <ul> - Used modules: <em>selenium</em>, <em>selenium.webdriver.common.keys</em></ul> 
+            <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>LAB Report Signup.py</code> file.</ul> </ul> <br/>
+    </ol></details>
 
-<ul> - Used modules: <em>selenium</em>, <em>selenium.webdriver.common.keys</em></ul> 
-- to run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>LAB Report Signup.py</code> file. </ul> <br/>
-    </ol>
-  </ol>
-</details>
+<!---[comment]: <> ABOUT THE PROJECT -->
 
-[comment]: <> (<!-- ABOUT THE PROJECT -->)
 ## About The Project
-These projects were developed, documented and tested to improve one's skills  mainly in the following programming languages, and frameworks
+
+These projects were developed, documented and tested to improve one's skills mainly in the following programming
+languages, and frameworks
+
 * [Python](https://www.python.org/)
 * [Beautiful soup ](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [Requests](https://docs.python-requests.org/en/master/)
 * [Selenium](https://www.selenium.dev/)
 
-
 [comment]: <> (<!-- GETTING STARTED -->)
-## Installation 
-Install the following modules 
-* `bs4 ` 
-* `selenium` 
-* `smtplib` 
-* `requests` 
+
+## Installation
+
+Install the following modules
+
+* `bs4 `
+* `selenium`
+* `smtplib`
+* `requests`
 * `re`
 * `spotipy`
 
-## Example of a get request and parsing the response with `BeautifulSoup` 
+## Example of a get request and parsing the response with `BeautifulSoup`
+
 ```py
 import requests
 from bs4 import BeautifulSoup
+
 # initialize a get request to the given url and save the text in a variable response_text
-URL = '' # any url 
-response_text=requests.get(URL).text
+URL = ''  # any url 
+response_text = requests.get(URL).text
 # parse the response_text using BeautifulSoup and the html parser 
 soup = BeautifulSoup(response_text, 'html.parser')
 # get hold of all anchor tags
-anchor_tags= soup.find_all(name="a")
-href_links=[]
+anchor_tags = soup.find_all(name="a")
+href_links = []
 for tag in anchor_tags:
     # print all the texts in the anchor tags
     print(tag.get_text())
     # adding the href link of the tag to the href_links list 
     href_links.append(tag.get("href"))
-    
+
 # Examples of getting elements by their attributes:
-heading= soup.find(name="h1", id="name")
-heading_text= heading.getText()
+heading = soup.find(name="h1", id="name")
+heading_text = heading.getText()
 print(heading_text)
-#getting hold of the tag
-heading_text= heading.name
+# getting hold of the tag
+heading_text = heading.name
 print(heading_text)
-#getting hold of the value of an attribute
-heading_text= heading.get("class")
+# getting hold of the value of an attribute
+heading_text = heading.get("class")
 print(heading_text)
 
 # Using CSS selectors 
 # getting the content of the first anchor tag element in the first paragraph
-first_url= soup.select_one( selector="p a")
+first_url = soup.select_one(selector="p a")
 # getting an element with a given id
-name=soup.select_one( selector="name")
+name = soup.select_one(selector="name")
 print(name.getText())
 # getting elements using a class name 
-headings=soup.select( selector=".headings")
+headings = soup.select(selector=".headings")
 ```
 
-## Example from the `cookie-clicker bot` project: Creating a driver using selenium  
+## Example from the `cookie-clicker bot` project: Creating a driver using selenium
+
 ```py
 import os
 from selenium import webdriver
+
 # In order to use Google chrome 
 # get the CHROME_DRIVER path saved in the environment variables, 
 CHROME_DRIVER = os.environ.get('CHROME_DRIVER')
