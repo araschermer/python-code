@@ -16,9 +16,10 @@ In this project, I provide implementation and documentation of the projects I di
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Projects</h2></summary>
-<ol>
+<ol> 
+<!---[comment]: <> (Projects Using Beautiful Soup&#41;)--->
     <details open="open">
-      <summary><h2 style="display: inline-block">Project Using Beautiful Soup</h2></summary>
+      <summary><h2 style="display: inline-block">Projects Using Beautiful Soup</h2></summary>
       <ol>
         <ul>
                 <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/web%20scraping%20(beautiful%20soup)/scraping%20empire%20best%20100%20movies%20list">Musical Time Machine (scraping Billboard top 100 list and creating spotify playlist)</a></li>
@@ -48,8 +49,10 @@ In this project, I provide implementation and documentation of the projects I di
         </ul>
     </ol>
     </details>
+
+[comment]: <> (Project Using Beautiful Soup and Selenium)
  <details open="open">
-      <summary><h2 style="display: inline-block">Project Using Beautiful Soup and Selenium</h2></summary>
+      <summary><h2 style="display: inline-block">Projects Using Beautiful Soup and Selenium</h2></summary>
       <ol>
         <ul>
                 <li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/data-entry%20automation(beautiful%20soup%20and%20selenium)">Data-Entry Automation</a></li>
@@ -63,12 +66,24 @@ I used Beautiful Soup to get:
 I also used Selenium to fill out a Google Form with all the information that was obtained from the previous step
 </details>
                     <ul> - Used modules: <em> requests</em>, <em> bs4</em>, <em>selenium</em></ul>
-        </ul> <br/> 
-
+        </ul> <br/>
     </ol>
     </details>
 
 
+[comment]: <> (Project Using Selenium)
+ <details open="open">
+      <summary><h2 style="display: inline-block">Projects Using Selenium</h2></summary>
+      <ol>
+        <ul>
+                <li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/upcoming-events(python.org).py">Upcoming events (python.org
+)</a></li>
+                <details><br /> In this project, I use <a >Selenium</a> to automate  the chrome browser to get to the <a>python.org</a> website and get the upcoming events listed in the main page.</details>
+
+<ul> - Used modules: <em>selenium</em></ul> 
+- to run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>upcoming-events(python.org).py </code> file. </ul> <br/>
+    </ol>
+    </details>
   </ol>
 </details>
 
@@ -78,19 +93,20 @@ These projects were developed, documented and tested to improve one's skills  ma
 * [Python](https://www.python.org/)
 * [Beautiful soup ](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [Requests](https://docs.python-requests.org/en/master/)
-
+* [Selenium](https://www.selenium.dev/)
 
 
 [comment]: <> (<!-- GETTING STARTED -->)
 ## Installation 
 Install the following modules 
 * `bs4 ` 
+* `selenium` 
 * `smtplib` 
 * `requests` 
 * `re`
 * `spotipy`
 
-## Example of a get request to and parsing the response with `BeautifulSoup` 
+## Example of a get request and parsing the response with `BeautifulSoup` 
 ```py
 import requests
 from bs4 import BeautifulSoup
@@ -128,3 +144,22 @@ print(name.getText())
 # getting elements using a class name 
 headings=soup.select( selector=".headings")
 ```
+
+## Example from the `cookie-clicker bot` project: Creating a driver using selenium  
+```py
+import os
+from selenium import webdriver
+# In order to use Google chrome 
+# get the CHROME_DRIVER path saved in the environment variables, 
+CHROME_DRIVER = os.environ.get('CHROME_DRIVER')
+driver = webdriver.Chrome(CHROME_DRIVER)
+# get the driver to open a given link 
+driver.get("https://orteil.dashnet.org/experiments/cookie/")
+# Get cookie
+cookie = driver.find_element_by_id("cookie")
+# Get upgrade-items ids.
+items = driver.find_elements_by_css_selector("#store div")
+print(f"items={items}")
+item_ids = [item.get_attribute("id") for item in items]
+print(f"item_ids={item_ids}")
+``` 
