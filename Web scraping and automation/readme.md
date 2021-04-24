@@ -73,6 +73,17 @@ I also used Selenium to fill out a Google Form with all the information that was
     <details open="open">
       <summary><h2 style="display: inline-block">Projects Using Selenium</h2></summary>
         <ol>
+<ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/twitter%20bot">Twitter Bot</a></li>
+<details><br /> In this project, I use <a >Selenium</a> to implement a tweet bot to write tweets to the internet provider complaining about the internet speed, once the speed goes below the promised speed.<br />
+First: the bot checks out the internet speed on <a href="https://www.speedtest.com"> Speedtest website</a> from which the webdriver retrieves the Download speed, Upload speed and PING. 
+If either of these properties are below their promised values, then the Bot logs in <a href="https://www.twitter.com"> Twitter</a> with given a username and password (that are stored in the environment variables) and tweets to the internet provider with  a complaint  containing the current download/upload/ping speed.
+- In check_speed_test.py, I implemented the internet speed checking automation.<br>
+<br /></details>
+            <ul> - Used modules: <em>selenium</em></ul> 
+            <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>, TWITTER <code>username</code> and <code>password</code> as <code>TWITTER_USERNAME</code>,<code>TWITTER_PASSWORD</code> in the environment variables and run the <code>main.py </code> file.</ul> 
+</ul><br/>
+
+
 <ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/instagram%20following%20bot">Instagram following Bot</a></li>
 <details><br /> In this project, I use <a >Selenium</a> to automate a web driver to get to the <a href="https://instagram.com"> Instagram </a> website  and login with a given user name and password, then redirects to a given account url, then shows the followers to this given account and start following them( and ignores the ones that are already being followed from that account that the bot operates).<br /></details>
             <ul> - Used modules: <em>selenium</em></ul> <br/>
