@@ -120,7 +120,6 @@ If either of these properties are below their promised values, then the Bot logs
             <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>LAB Report Signup.py</code> file.</ul> </ul> <br/>
     </ol></details>
 
-
 <details open="open">
   <summary><h2 style="display: inline-block" 
  >Projects Using Scrapy</h2></summary>
