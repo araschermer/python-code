@@ -7,7 +7,7 @@
     project_description
     <br />
 Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites using the Hypertext Transfer Protocol or a web browser.
-In this project, I provide implementation and documentation of the projects I did using <a href="#BS">Beautiful Soup</a>, and  <a href="#scrapy">Scrapy</a>, also application using <a href="#BS">Selenium</a> in web scraping and tasks automation.
+In this project, I provide implementation and documentation of the projects I did using <a href="#BS">Beautiful Soup</a>, and  <a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/scrapy-practice">Scrapy</a>, also application using <a href="#BS">Selenium</a> in web scraping and tasks automation.
 
    <br />
     <br />
@@ -119,6 +119,13 @@ If either of these properties are below their promised values, then the Bot logs
             <ul> - Used modules: <em>selenium</em>, <em>selenium.webdriver.common.keys</em></ul> 
             <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>LAB Report Signup.py</code> file.</ul> </ul> <br/>
     </ol></details>
+
+
+<details open="open">
+  <summary><h2 style="display: inline-block" 
+ >Projects Using Scrapy</h2></summary>
+<ul>Documentation for the projects using scrapy can be found <a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/scrapy-practice/">here </a> </ul>
+</details>
 
 <!---[comment]: <> ABOUT THE PROJECT -->
 
