@@ -54,7 +54,7 @@ The Projects folder also contains some projects implemented using Bootstrap4, HT
 
 </ol>
 <summary><h2 style="display: inline-block">Hackerrank</h2></summary>
-        <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/LeetCode"> Hackerrank problems and challenges </a></li>
+        <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/HackerRank"> Hackerrank problems and challenges </a></li>
 <details> In this project, I provide my solution of some of the <a href="https://www.hackerrank.com">Hackerrank problems and challenges </a></details>
 </ul><br/></ol>
 
