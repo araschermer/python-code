@@ -5,9 +5,8 @@
 
 <h3 align="center">Projects in python</h3>
 
-  <p >
-    project_description
-    <br />In this repository, I provide implementation and documentation to some projects using python, such as  problem solving and implementing many projects using various frameworks, relational database management systems  and other python modules
+  <p > <br />In this repository, I provide implementation and documentation to some projects using python.
+The projects are mainly focused on problem solving and gaining the first experience using the most essential frameworks, relational database management systems  and other python modules.
 
    <br />
     <br />
