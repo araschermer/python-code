@@ -1,6 +1,7 @@
 import scrapy
 from ..items import QuotetutorialItem
 
+
 class QuoteSpider(scrapy.Spider):
     name = 'quotes_scraper'
     start_urls = [
@@ -22,3 +23,8 @@ class QuoteSpider(scrapy.Spider):
             items['tags'] = tags
 
             yield items
+        # to get the spider crawling the next pages of the website
+        next_page = response.css('li.next a ::attr(href)').get()
+        if next_page is not None:
+            #  scrape the pages recursively
+            yield response.follow(next_page, callback=self.parse)

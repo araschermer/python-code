@@ -21,7 +21,7 @@ Scrapy is a free and open-source web-crawling framework written in Python. Origi
         <ol>
 
 <ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/scrapy-practice/quotes_scraper">Quotes Scraper Bot </a></li>
-<details>In this project, i use scrapy framework to scrape data off <a href="https://quotes.toscrape.com"> quotes to scrape website </a>  and getting the quotes, the  author of the quote and the tags attached to the quotes, and save them in an <a href="sqlite">SQLite</a> database<br /></details>
+<details>In this project, i use scrapy framework to scrape data off <a href="https://quotes.toscrape.com"> quotes to scrape website </a>  and getting the quotes, the  author of the quote and the tags attached to the quotes, with the added functionality to get the spider crawling  and scraping the next pages of the website that hold quotes.Also to save them in database using <a href="sqlite">SQLite</a> and <a href="mysql">Mysql</a> <br /></details>
             <ul> - Used modules: <em>selenium</em>, <em>sqlite3 </em></ul> <br />
             <ul> - open the terminal in the project file <code>quotes_scraper</code> and type<code> scrapy crawl quotes_scraper</code> for the spider to run!.</ul> 
 </ul><br/>
