@@ -14,10 +14,12 @@ NEWSPIDER_MODULE = 'amazon_best_seller_books.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'amazon_best_seller_books (+http://www.yourdomain.com)'
+# USER_AGENT = 'amazon_best_seller_books (+http://www.yourdomain.com)'
+# USER_AGENT = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
@@ -52,6 +54,19 @@ ROBOTSTXT_OBEY = False
 #DOWNLOADER_MIDDLEWARES = {
 #    'amazon_best_seller_books.middlewares.AmazonBestSellerBooksDownloaderMiddleware': 543,
 #}
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
+}
+
+# to Activate the proxy
+# PROXY_POOL_ENABLED = True
+# DOWNLOADER_MIDDLEWARES = {
+#     # ...
+#     'scrapy_proxy_pool.middlewares.ProxyPoolMiddleware': 610,
+#     'scrapy_proxy_pool.middlewares.BanDetectionMiddleware': 620,
+#     # ...
+# }
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
