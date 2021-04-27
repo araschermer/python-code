@@ -19,7 +19,7 @@ The projects are mainly focused on problem solving and gaining the first experie
         <ol>
 
 <ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20development%20projects%20%20(FLASK%2C%20Flask-WTForms%2C%20SQLite%2C%20SQLAlchemy%2C%20Bootstrap%2Cjinja%2C%20html%2Ccss)"> Web Development projects </a></li>
-<details>In Web Development projects, I use python to implement front and backend projects with full functionality using different frameworks and python modules such as  <strong>FLASK, Flask-WTForms, SQLite, SQLAlchemy, Bootstrap,jinja</strong>, as well as languages such as <strong>html, css and javascript</strong>.
+<details>In Web Development projects, I use python to implement front and backend projects with full functionality using different frameworks and python modules such as  <strong>FLASK, Flask-WTForms, SQLite, SQLAlchemy, Bootstrap,jinja</strong>, as well as languages such as <strong>html, css and javascript</strong>.</details>
 </ul><br/></ol>
       <summary><h2 style="display: inline-block">Web Scraping and Automation</h2></summary>
         <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation"> Web Scraping and Automation Projects </a></li>
@@ -38,7 +38,7 @@ The projects are mainly focused on problem solving and gaining the first experie
 
 <summary><h2 style="display: inline-block">Relational Databases</h2></summary>
         <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/Relational%20Databases"> Relational Databases </a></li>
-<details>In Relational databases projects, I use python to implement different project using the most commonly used relational database management systems, such as <strong>MYSQL, SQLITE, POSTGRESQL</strong>, to generate and manipulate data in local databases</details>
+<details>In Relational databases projects, I use python to implement different project using the most commonly used relational database management systems, such as <strong>MYSQL, SQLITE, POSTGRESQL</strong>, to generate and manipulate data in local databases using <strong>Flask and SQlAlchemy</strong> </details>
 </ul><br/></ol>
 
 <summary><h2 style="display: inline-block">100 Days of Code</h2></summary>
@@ -60,8 +60,7 @@ The Projects folder also contains some projects implemented using Bootstrap4, HT
 
 
 <summary><h2 style="display: inline-block">Datastructures and Algorithms</h2></summary>
-        <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/Datastructures%20and%20Algorithms"> Datastructures and Algorithms Implementations</a>
- </a></li>
+        <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/Datastructures%20and%20Algorithms"> Datastructures and Algorithms Implementations</a></li>
 <details> In this project, I provide my Implementation of Datastructures and Algorithms using python </details>
 </ul><br/></ol>
 
