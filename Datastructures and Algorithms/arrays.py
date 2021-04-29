@@ -16,8 +16,23 @@ for num in range(10):
     array4.insert(num, num)
 print(f"array4: {array4}")
 
+# to remove item from array
+array = [i for i in range(10)]
+array.remove(9)
+print(f"Array: {array}")
+# Reverse Array
+array.reverse()
+print(f"Array: {array}")
 
-# list comprehension for a 1d array
+# getting index of element
+print(f"Index of element 5 in {array} is {array.index(5)}")
+# search element between indices
+array = [1, 2, 4, 1, 2, 3, 2, 1, 3, 2, 2, 1, ]
+print(f"index of element 2 between indices 0,2 in {array} is {array.index(2, 0, 2)}")
+# counting number of appearance of number 2 in the array
+print(f"element number 2 appears {array.count(2)} times in {array}")
+
+# list comprehension for a 1D array
 flat_list = [element for element in range(4 * 4)]
 
 # Row major 2d array
