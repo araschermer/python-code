@@ -16,8 +16,11 @@ for num in range(10):
     array4.insert(num, num)
 print(f"array4: {array4}")
 
-# Row major 2d array
+
+# list comprehension for a 1d array
 flat_list = [element for element in range(4 * 4)]
+
+# Row major 2d array
 row_major_2d_array = []
 start = 0
 end = 4  # num of columns
