@@ -1,6 +1,10 @@
 data = [("Berlin", 9), ("Cairo", 33), ("New York", 25), ("Ankara", 2), ("London", 10), ("Tokyo", 14)]
 print(data)
 # create a lambda function for the conversion
+# (0°C × 9/5) + 32 = 32°F
+# temp[0]: city name
+# temp[1] temperature in Celsius degrees.
+# return : (city name, temperature in fahrenheit)
 temperature_to_fahrenheit = lambda temp: (temp[0], (9 / 5) * temp[1] + 32)
 # map the function to the temperature of the given cities
 result = list(map(temperature_to_fahrenheit, data))
