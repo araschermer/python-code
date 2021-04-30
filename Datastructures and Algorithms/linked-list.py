@@ -4,14 +4,17 @@ class Node:
         self.next_node = next_node
 
 
-
 class LinkedList:
     def __init__(self):
         self.head = None
 
     def insert_at_beginning(self, data):
-        """inserts an element at the beginning of the linked list."""
+        """inserts an element at the beginning of the linked list.
+        :param data : the data of the new node"""
+        # initializing a node object with given data and the next node of the current head
         node = Node(data, self.head)
+        # update the head to point at the new node
+        # The structure should look like:  New_new (head) -> node (old_head, which might be null)
         self.head = node
 
     def check_valid_index(self, index):
@@ -60,7 +63,7 @@ class LinkedList:
         return counter
 
     def insert_list_starting_index(self, index, data: []):
-        """inserts a list  of elements starting from a given index in the linked list"""
+        """inserts a list of elements after a given index in the linked list"""
         for i, element in enumerate(data):
             self.insert_element_at_index(index + i, element)
 
@@ -89,9 +92,13 @@ class LinkedList:
 
     def remove_by_value(self, value):
         """removes an element of a given value from the linked list."""
+        if not self.head:
+            return
         pointer = self.head
         while pointer.next_node is not None:
             if pointer.next_node.data == value:
+                # pointer: node_x -> node_to_delete -> node_y
+                #  node_x -> node_y
                 pointer.next_node = pointer.next_node.next_node
                 return
             pointer = pointer.next_node
@@ -130,20 +137,6 @@ class LinkedList:
             pointer = pointer.next_node
         print(list_as_string)
 
-    def print_reversed_linked_list(self):
-        reverse_linked_list = ""
-        pointer = None
-        while self.get_tail() != self.head:
-            pointer = self.head.next_node
-            pointer.previous = self.head
-            self.head = pointer
-        while pointer is not None:
-            reverse_linked_list += f"{pointer.data}"
-            if pointer.previous is not None:
-                reverse_linked_list += " --> "
-            pointer = pointer.previous
-        print(reverse_linked_list)
-
 
 if __name__ == "__main__":
     linked_list = LinkedList()
@@ -152,19 +145,26 @@ if __name__ == "__main__":
     linked_list.insert_at_beginning(1000)
     linked_list.append_element(0)
     linked_list.append_list([1, 2, 3, 4, 5])
+    # 1000 --> 100 --> 10 --> 0 --> 1 --> 2 --> 3 --> 4 --> 5
     linked_list.print_linked_list()
-    print(linked_list.get_list_length())
+
+    print(linked_list.get_list_length())  # 9
     linked_list.remove_element_at_index(2)
+    # 1000 --> 100 --> 0 --> 1 --> 2 --> 3 --> 4 --> 5
     linked_list.print_linked_list()
     linked_list.insert_element_at_index(3, 99)
+    # 1000 --> 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
     linked_list.print_linked_list()
     linked_list.insert_list_starting_index(4, ["x", "y", "z"])
+    # 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
     linked_list.print_linked_list()
     linked_list.remove_element_at_index(0)
+    # 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
     linked_list.print_linked_list()
     linked_list.insert_after_value("x", 9999999)
+    # 100 --> 0 --> 99 --> x --> 9999999 --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
     linked_list.print_linked_list()
     linked_list.remove_by_value("z")
+    # 100 --> 0 --> 99 --> x --> 9999999 --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
     linked_list.print_linked_list()
     print(f"tail value = {linked_list.get_tail().data}")
-    linked_list.print_reversed_linked_list()
