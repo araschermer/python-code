@@ -1,3 +1,4 @@
+#Basic Array operaitons
 # appending elements to the first unoccupied element in the array
 array1 = []
 for num in range(10):
@@ -20,6 +21,10 @@ print(f"array4: {array4}")
 array = [i for i in range(10)]
 array.remove(9)
 print(f"Array: {array}")
+# delete element by index
+print(f"Array: {array}")
+del array[0]
+print(f"Array after deleting element at index 0: {array}")
 # Reverse Array
 array.reverse()
 print(f"Array: {array}")
@@ -31,6 +36,16 @@ array = [1, 2, 4, 1, 2, 3, 2, 1, 3, 2, 2, 1, ]
 print(f"index of element 2 between indices 0,2 in {array} is {array.index(2, 0, 2)}")
 # counting number of appearance of number 2 in the array
 print(f"element number 2 appears {array.count(2)} times in {array}")
+
+# getting maximum
+print(f"maximum number  in {array} is: {max(array)}")
+
+# Deep copy of an array
+copy_array=array.copy()
+print(f"deep copy of {array} is {copy_array} ")
+# testing the copy
+del copy_array[0]
+print(f"Array {array}, Copy array: {copy_array} ")
 
 # list comprehension for a 1D array
 flat_list = [element for element in range(4 * 4)]
