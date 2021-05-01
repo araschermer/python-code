@@ -34,25 +34,6 @@ class DoublyLinkedList:
             pointer = pointer.next_node
         return counter
 
-    def insert_element_at_index(self, index, data):
-        """inserts an element at a given index in a linked list."""
-        self.check_valid_index(index)
-        if index == 0:
-            self.insert_at_beginning(data)
-            return
-        counter = 0
-        pointer = self.head
-        while pointer:
-            if counter == index - 1:
-                pointer.next_node = Node(data, pointer.next_node)
-                return
-            counter += 1
-            pointer = pointer.next_node
-
-    def insert_list_starting_index(self, index, data_list: []):
-        for index_, node in enumerate(data_list):
-            self.insert_element_at_index(data=node, index=(index + index_))
-
     def get_tail(self):
         pointer = self.head
         while pointer.next_node:
@@ -98,16 +79,16 @@ class DoublyLinkedList:
         if self.head is None:
             print("The list has no element to delete")
             return
-        p = self.head
-        q = p.next_node
-        p.next_node = None
-        p.previous = q
-        while q is not None:
-            q.previous = q.next_node
-            q.next_node = p
-            p = q
-            q = q.previous
-        self.head = p
+        pointer1 = self.head
+        pointer2 = pointer1.next_node
+        pointer1.next_node = None
+        pointer1.previous = pointer2
+        while pointer2 is not None:
+            pointer2.previous = pointer2.next_node
+            pointer2.next_node = pointer1
+            pointer1 = pointer2
+            pointer2 = pointer2.previous
+        self.head = pointer1
 
     def print_reversed_linked_list(self):
         reversed_dls = ""
@@ -141,12 +122,6 @@ if __name__ == "__main__":
     dls.print_forwards()
     print(dls.get_list_length())
     dls.print_forwards()
-    dls.insert_element_at_index(data="x", index=1)
-    dls.insert_element_at_index(index=1, data="y")
-    dls.print_forwards()
-    dls.insert_list_starting_index(data_list=["h", "b", "P"], index=3)
-    print("new list:")
-    dls.print_forwards()
     print("remove last element:")
     dls.remove_last_element()
     dls.print_forwards()
@@ -156,6 +131,3 @@ if __name__ == "__main__":
     print("Reverse list")
     dls.reverse_linked_list()
     dls.print_forwards()
-
-    # print(f"dls.check_valid_index(90):{dls.check_valid_index(90)}")
-    # print(f"dls.check_valid_index(1):{dls.check_valid_index(1)}")
