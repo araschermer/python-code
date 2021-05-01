@@ -72,4 +72,4 @@ The Projects folder also contains some projects implemented using Bootstrap4, HT
 
 ## About The Project
 
-These projects were developed, documented and tested to improve one's skills mainly in python and  its most common modules and relevant frameworks.
+These projects are developed, documented and tested to mainly improve one's skills in python and its most common modules and relevant frameworks.
