@@ -189,109 +189,55 @@ class LinkedList:
         self.head = pointer1
         return self.head
 
-    def merge_linked_lists(self, list_to_merge):
-        """returns a single linked list out of merging two single linked lists with sorted elements."""
-        pointer1 = self.head
-        pointer2 = list_to_merge.head
-        pointer3 = None
-        while pointer1 and pointer2:
-            if pointer1.data < pointer2.data:
-                pointer3 = pointer1
-                pointer1 = pointer1.next_node
-            else:  # pointer1.data < pointer2.data
-                if pointer3:
-                    pointer3.next_node = pointer2
-                pointer3 = pointer2
-                pointer2 = pointer2.next_node
-                pointer3.next_node = pointer1
-        if pointer2:
-            pointer3.next_node = pointer2
-        elif pointer1:
-            pointer3.next_node = pointer1
-        return self if self.head.data < list_to_merge.head.data else list_to_merge
-
-    def recursive_merge(self, list_to_merge):
-        pointer1 = self.head
-        pointer2 = list_to_merge.head
-        self.print_linked_list()
-        list_to_merge.print_linked_list()
-        self.recursive_call(pointer1, pointer2)
-        return self if self.head.data < list_to_merge.head.data else list_to_merge
-
-    def recursive_call(self, pointer1, pointer2, pointer3=None):
-        self.print_linked_list()
-        if not pointer1:
-            pointer3.next_node = pointer2
-            return
-        if not pointer2:
-            return
-        if pointer1.data < pointer2.data:
-            self.recursive_call(pointer1.next_node, pointer2, pointer1)
-        else:
-            if pointer3 is not None:
-                pointer3.next_node = pointer2
-            temp_pointer2 = pointer2.next_node
-            pointer2.next_node = pointer1
-            self.recursive_call(pointer1=pointer1, pointer2=temp_pointer2, pointer3=pointer2)
-
 
 if __name__ == "__main__":
-    # linked_list = LinkedList()
-    # linked_list.insert_at_beginning(10)
-    # linked_list.insert_at_beginning(100)
-    # linked_list.insert_at_beginning(1000)
-    # linked_list.append_element(0)
-    # linked_list.append_list([1, 2, 3, 4, 5])
-    # # 1000 --> 100 --> 10 --> 0 --> 1 --> 2 --> 3 --> 4 --> 5
-    # linked_list.print_linked_list()
-    #
-    # print(linked_list.get_list_length())  # 9
-    # linked_list.remove_element_at_index(2)
-    # # 1000 --> 100 --> 0 --> 1 --> 2 --> 3 --> 4 --> 5
-    # linked_list.print_linked_list()
-    # linked_list.insert_element_at_index(3, 99)
-    # # 1000 --> 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
-    # linked_list.print_linked_list()
-    # linked_list.insert_list_starting_index(4, ["x", "y", "z"])
-    # # 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
-    # linked_list.print_linked_list()
-    # linked_list.remove_element_at_index(0)
-    # # 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
-    # linked_list.print_linked_list()
-    # linked_list.insert_after_value("x", 9999999)
-    # # 100 --> 0 --> 99 --> x --> 9999999 --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
-    # linked_list.print_linked_list()
-    # linked_list.remove_by_value("z")
-    # # 100 --> 0 --> 99 --> x --> 9999999 --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
-    # linked_list.print_linked_list()
-    # print(f"tail value = {linked_list.get_tail().data}")
-    # linked_list.contains_value(0)
-    # linked_list.contains_value(10)
-    # linked_list.contains_value(1100)
-    # linked_list.contains_value('y')
-    # linked_list.append_element(2)
-    # linked_list.insert_at_beginning(2)
-    # linked_list.insert_at_beginning(2)
-    # linked_list.append_element(2)
-    # linked_list.insert_element_at_index(4, 2)
-    #
-    # linked_list.print_linked_list()
-    # # removing the first element of value 2
-    # print("Removing the first element of value 2")
-    # linked_list.remove_by_value(2)
-    # linked_list.print_linked_list()
-    # print("Removing all elements of value 2")
-    # linked_list.remove_all_by_value(2)
-    # linked_list.print_linked_list()
-    # linked_list.reverse_linked_list()
-    # print(f"Reversed linked list")
-    # linked_list.print_linked_list()
-    linked_list2 = LinkedList()
-    linked_list2.insert_list_starting_index(0, [-10, 1, 3, 4, 8])
-    linked_list2.print_linked_list()
-    linked_list3 = LinkedList()
-    linked_list3.insert_list_starting_index(0, [-1, 0, 2, 5])
-    linked_list3.print_linked_list()
-    linked_list2 = linked_list2.recursive_merge(linked_list3)
-    # linked_list2 = linked_list2.merge_linked_lists(list_to_merge=linked_list3)
-    linked_list2.print_linked_list()
+    linked_list = LinkedList()
+    linked_list.insert_at_beginning(10)
+    linked_list.insert_at_beginning(100)
+    linked_list.insert_at_beginning(1000)
+    linked_list.append_element(0)
+    linked_list.append_list([1, 2, 3, 4, 5])
+    # 1000 --> 100 --> 10 --> 0 --> 1 --> 2 --> 3 --> 4 --> 5
+    linked_list.print_linked_list()
+
+    print(linked_list.get_list_length())  # 9
+    linked_list.remove_element_at_index(2)
+    # 1000 --> 100 --> 0 --> 1 --> 2 --> 3 --> 4 --> 5
+    linked_list.print_linked_list()
+    linked_list.insert_element_at_index(3, 99)
+    # 1000 --> 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
+    linked_list.print_linked_list()
+    linked_list.insert_list_starting_index(4, ["x", "y", "z"])
+    # 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
+    linked_list.print_linked_list()
+    linked_list.remove_element_at_index(0)
+    # 100 --> 0 --> 99 --> x --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
+    linked_list.print_linked_list()
+    linked_list.insert_after_value("x", 9999999)
+    # 100 --> 0 --> 99 --> x --> 9999999 --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
+    linked_list.print_linked_list()
+    linked_list.remove_by_value("z")
+    # 100 --> 0 --> 99 --> x --> 9999999 --> y --> z --> 1 --> 2 --> 3 --> 4 --> 5
+    linked_list.print_linked_list()
+    print(f"tail value = {linked_list.get_tail().data}")
+    linked_list.contains_value(0)
+    linked_list.contains_value(10)
+    linked_list.contains_value(1100)
+    linked_list.contains_value('y')
+    linked_list.append_element(2)
+    linked_list.insert_at_beginning(2)
+    linked_list.insert_at_beginning(2)
+    linked_list.append_element(2)
+    linked_list.insert_element_at_index(4, 2)
+
+    linked_list.print_linked_list()
+    # removing the first element of value 2
+    print("Removing the first element of value 2")
+    linked_list.remove_by_value(2)
+    linked_list.print_linked_list()
+    print("Removing all elements of value 2")
+    linked_list.remove_all_by_value(2)
+    linked_list.print_linked_list()
+    linked_list.reverse_linked_list()
+    print(f"Reversed linked list")
+    linked_list.print_linked_list()
