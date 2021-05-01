@@ -61,7 +61,7 @@ The Projects folder also contains some projects implemented using Bootstrap4, HT
 
 <summary><h2 style="display: inline-block">Datastructures and Algorithms</h2></summary>
         <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/algorithms_and_data_structures"> Datastructures and Algorithms Implementations</a></li>
-<details> In this project, I provide my Implementation of Datastructures and Algorithms using python  such as <a href="https://github.com/amgad01/python-code/tree/main/algorithms_and_data_structures/linked_lists">Linked lists</a> <a href='https://github.com/amgad01/python-code/blob/main/algorithms_and_data_structures/binary-tree.py'> Binary trees </details> and others
+<details> In this project, I provide my Implementation of Datastructures and Algorithms using python, such as <a href="https://github.com/amgad01/python-code/tree/main/algorithms_and_data_structures/linked_lists">Linked lists</a> <a href='https://github.com/amgad01/python-code/blob/main/algorithms_and_data_structures/binary-tree.py'> Binary trees</a>  and others </details>
 </ul><br/></ol>
 
 </ol>
