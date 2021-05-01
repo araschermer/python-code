@@ -94,8 +94,6 @@ class DoublyLinkedList2:
         node.previous = None
         node.next_node = None
 
-
-
     def remove_node_at_index(self, index: int):
         counter = 0
         pointer = self.head
@@ -129,6 +127,3 @@ class DoublyLinkedList2:
         while node is not None and node.value != value:
             node = node.next_node
         return node is not None
-
-
-
