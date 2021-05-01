@@ -1,4 +1,4 @@
-from util import print_linked_list, insert_list, Node
+from linked_lists_util import print_linked_list, insert_list, Node
 
 
 class LinkedList:
