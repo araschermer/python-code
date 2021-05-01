@@ -1,4 +1,4 @@
-from util import print_linked_list, insert_list
+from util import print_linked_list, insert_list, Node
 
 
 class LinkedList:
@@ -14,23 +14,26 @@ class LinkedList:
             self.remove_tail()
             # place the current tail in the  beginning of the list, with that all elements of the list  get shifted
             # by one
-            self.set_head(head=old_tail)
+            self.set_head(new_head=old_tail)
             # repeat number of shifts times to get all elements of the list shifted by the given number of shifts
         return self
 
     def get_tail(self):
+        """returns the last node in the linked list."""
         pointer = self.head
         while pointer.next_node:
             pointer = pointer.next_node
         return pointer
 
-    def set_head(self, head):
+    def set_head(self, new_head: Node):
+        """sets a new head of the linked list to be the given node"""
         pointer = self.head
-        self.head = head
+        self.head = new_head
         self.head.next_node = pointer
         return self
 
     def remove_tail(self):
+        """removes the last element from the linked list"""
         pointer = self.head
         while pointer.next_node.next_node:
             pointer = pointer.next_node
@@ -38,6 +41,8 @@ class LinkedList:
         return self
 
     def shift_elements2(self, num_shifts: int):
+        """Shifts all the elements of the list by the number of shifts given as parameters.
+        :param num_shifts: The number of shifts to shift the elements of the list by. positive integer"""
         length = self.get_length()
         if num_shifts == 0:
             return self
@@ -56,6 +61,7 @@ class LinkedList:
         return self
 
     def get_length(self):
+        """Returns length of the linked list."""
         pointer = self.head
         counter = 0
         while pointer:
