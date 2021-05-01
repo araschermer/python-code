@@ -37,10 +37,39 @@ class LinkedList:
         pointer.next_node = None
         return self
 
+    def shift_elements2(self, num_shifts: int):
+        length = self.get_length()
+        if num_shifts == 0:
+            return self
+        pointer = self.head
+        tail_position = length - num_shifts
+        for _ in range(tail_position - 1):
+            pointer = pointer.next_node
+        new_tail = pointer
+        new_head = new_tail.next_node
+        new_tail.next_node = None
+        head = new_head
+        for _ in range(num_shifts - 1):
+            new_head = new_head.next_node
+        new_head.next_node = self.head
+        self.head = head
+        return self
+
+    def get_length(self):
+        pointer = self.head
+        counter = 0
+        while pointer:
+            counter += 1
+            pointer = pointer.next_node
+        return counter
+
 
 if __name__ == '__main__':
     linked_list2 = LinkedList()
     insert_list(linked_list2, [-10, 3, 2, 10, 1, 3, -5, 4, 3, 8, 0])
+    print(linked_list2.get_length())
     print_linked_list(linked_list2)
-    linked_list2 = linked_list2.shift_elements(3)
+    # linked_list2 = linked_list2.shift_elements(3)
+    # print_linked_list(linked_list2)
+    linked_list2 = linked_list2.shift_elements2(3)
     print_linked_list(linked_list2)
