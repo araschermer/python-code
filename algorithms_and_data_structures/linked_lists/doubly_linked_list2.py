@@ -94,22 +94,7 @@ class DoublyLinkedList2:
         node.previous = None
         node.next_node = None
 
-    def remove_nth_node_from_end(self, n: int):
-        """Removes the node at the nth position from the end of the linked list."""
-        # create two pointers  starting form the beginning of the list (from the head)
-        pointer1 = self.head
-        pointer2 = self.head
-        for _ in range(n):
-            #  move the second pointer to be distant by n positions from the first pointer
-            pointer2 = pointer2.next_node
-        # mve the second pointer to the end of the list
-        while pointer2 is not None:
-            pointer2 = pointer2.next_node
-            pointer1 = pointer1.next_node
-        # after the while loop , pointer 2 is pointing at none
-        # and pointer 1 is at the nth position from the end of the linked list
-        #  remove the first pointer
-        self.remove(pointer1)
+
 
     def remove_node_at_index(self, index: int):
         counter = 0
