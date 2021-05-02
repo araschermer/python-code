@@ -1,3 +1,6 @@
+from util import check_validity
+
+
 def two_sum(nums, target):
     """Given an array of integers nums and an integer target,
     return indices of the two numbers such that they add up to target
@@ -5,16 +8,7 @@ def two_sum(nums, target):
     :type target: int
     :rtype: List[int]
     """
-    # Check valid target:
-    if type(target) is not int:
-        raise TypeError('Target is not an integer!')
-    # check the type of the nums elements :
-    for index, num in enumerate(nums):
-        if type(num) is not int:
-            raise TypeError(f"{num} Invalid number type in the input array")
-        # check non-repetitiveness in the array
-        if num in nums and nums.index(num) != index:
-            raise ValueError("Array contains repetitive numbers")
+    check_validity(nums, target)
 
     # coping the array's content in an external  array to keep the indices intact in the original nums array
     sorted_nums = nums[:]
