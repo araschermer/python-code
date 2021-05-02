@@ -1,4 +1,4 @@
-from util import check_validity
+from LeetCode.util import check_validity
 
 
 def two_sum(nums, target):
@@ -8,6 +8,7 @@ def two_sum(nums, target):
     :type target: int
     :rtype: List[int]
     """
+    # Time complexity is o(n log n) because of the array sorting, space complexity: o(n): for using the sorted array
     check_validity(nums, target)
 
     # coping the array's content in an external  array to keep the indices intact in the original nums array
@@ -29,6 +30,41 @@ def two_sum(nums, target):
                       nums[index] == sorted_nums[first_pointer] or nums[index] == sorted_nums[last_pointer]]
             break
     return result
+
+
+def two_sums(nums, target):
+    """Given an array of integers nums and an integer target,
+    return indices of the two numbers such that they add up to target
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
+    # time complexity is o(n^2), space complexity is o(1)
+    check_validity(nums, target)
+    result = []
+    for index1, num1 in enumerate(nums):
+        for index2, num2 in enumerate(nums):
+            if num1 != num2 and num1 + num2 == target:
+                result = [index1, index2]
+    return result
+
+
+def two_sums_(nums, target):
+    """Given an array of integers nums and an integer target,
+    return indices of the two numbers such that they add up to target
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
+    # time complexity is o(n), space complexity is O(n)
+    check_validity(nums, target)
+    nums_table = {}
+    for index, num in enumerate(nums):
+        if target - num in nums_table:
+            return [nums_table[target - num], index]
+        else:
+            nums_table[num] = index
+    return []
 
 
 if __name__ == '__main__':
