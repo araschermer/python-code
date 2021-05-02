@@ -1,11 +1,13 @@
 from nose.tools import assert_equal
+from LeetCode.util import check_validity
 
 
 def three_sum(nums: [int]) -> [[int]]:
     """Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k,
      and j != k, and nums[i] + nums[j] + nums[k] == 0.
      Notice that the solution set must not contain duplicate triplets."""
-    if len(nums) <= 2:
+    check_validity(nums, 0, repetitive_numbers=True)
+    if len(nums) <= 2 or not nums:
         return []
     nums.sort()
     result = []
@@ -20,9 +22,8 @@ def three_sum(nums: [int]) -> [[int]]:
             if first + second + third > 0:
                 right -= 1
                 continue
-            elif first + second + third == 0:
-                if [first, second, third] not in result:
-                    result.append([first, second, third])
+            elif first + second + third == 0 and [first, second, third] not in result:
+                result.append([first, second, third])
             middle += 1
     return result
 
@@ -41,7 +42,6 @@ if __name__ == "__main__":
     # Input: nums = [0]
     # Output: []
     assert_equal(three_sum([0]), [])
-
     assert_equal(three_sum([0, 0, 0, 0]), [[0, 0, 0]])
     assert_equal(three_sum([0, 0, 0]), [[0, 0, 0]])
     assert_equal(three_sum([-2, 0, 1, 1, 2]), [[-2, 0, 2], [-2, 1, 1]])
