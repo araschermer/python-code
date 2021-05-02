@@ -12,16 +12,23 @@ class LinkedList:
         """inserts an element at the beginning of the linked list.
         :param data : the data of the new node"""
         # initializing a node object with given data and the next node of the current head
-        node = Node(data, self.head)
-        # update the head to point at the new node
-        # The structure should look like:  New_new (head) -> node (old_head, which might be null)
-        self.head = node
+        if data is not None:
+            node = Node(data, self.head)
+            # update the head to point at the new node
+            # The structure should look like:  New_new (head) -> node (old_head, which might be null)
+            self.head = node
+        else:
+            raise ValueError("The Head of the linked list cannot be none")
 
     def check_valid_index(self, index):
         """checks if a given index is valid, otherwise raises an index error"""
-        list_length = self.get_list_length()
-        if 0 > index or index > list_length:
+        if type(index) is int:
+            list_length = self.get_list_length()
+            if index == 0 or 0 < index < list_length:
+                return True
             raise IndexError("This Index is out of bounds")
+        else:
+            raise ValueError(f"{index} is not a valid index Value")
 
     def insert_element_at_index(self, index, data):
         """inserts an element at a given index in a linked list."""
@@ -50,13 +57,28 @@ class LinkedList:
 
     def append_list(self, data_list):
         """inserts a list at the end of a linked list"""
-        for data in data_list:
-            self.append_element(data)
+        if data_list and self.head is not None:
+            for data in data_list:
+                if data is None:
+                    continue
+                self.append_element(data)
+
+        elif self.head is None:
+            for data in data_list:
+                if data is not None:
+                    self.append_element(data)
+            if self.head is None:
+                raise ValueError("Invalid insertion")
+
+        else:
+            raise ValueError("List is empty")
 
     def get_list_length(self):
         """returns the length of the linked list"""
         counter = 0
         pointer = self.head
+        if pointer is None:
+            return 0
         while pointer:
             counter += 1
             pointer = pointer.next_node

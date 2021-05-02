@@ -21,9 +21,20 @@ def print_linked_list(list_to_print):
 
 def insert_list(linked_list, data: []):
     """inserts a list of elements after a given index in the linked list"""
-    linked_list.head = Node(data=data[0])
-    pointer = linked_list.head
-    for element in data[1:]:
-        pointer.next_node = Node(data=element)
-        pointer = pointer.next_node
+    if data:
+        pointer = linked_list.head
+        for element in data:
+            if element is not None:
+                if pointer is None:
+                    pointer = Node(data=element)
+                    linked_list.head = pointer
+                else:
+                    pointer.next_node = Node(data=element)
+                    pointer = pointer.next_node
+            else:
+                continue
+    else:
+        linked_list.head = Node(data=data)
+    print_linked_list(linked_list)
     return linked_list
+
