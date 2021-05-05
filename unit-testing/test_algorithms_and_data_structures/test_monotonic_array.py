@@ -1,5 +1,5 @@
 from unittest import TestCase
-from algorithms_and_data_structures.monotonic_array import monotonic_array
+from algorithms_and_data_structures.arrays.monotonic_array import monotonic_array
 
 
 class TestMonotonicArray(TestCase):

@@ -1,5 +1,5 @@
 from unittest import TestCase
-from algorithms_and_data_structures.smallest_difference import smallest_difference
+from algorithms_and_data_structures.arrays.smallest_difference import smallest_difference
 
 
 class TestSmallestDifference(TestCase):

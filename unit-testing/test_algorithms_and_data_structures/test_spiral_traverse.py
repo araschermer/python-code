@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from algorithms_and_data_structures.spiral_traverse import spiral_traverse
+from algorithms_and_data_structures.arrays.spiral_traverse import spiral_traverse
 
 
 class TestSpiralTraverse(TestCase):

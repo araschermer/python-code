@@ -1,6 +1,6 @@
 import unittest
 
-from algorithms_and_data_structures.longest_peak import longest_peak
+from algorithms_and_data_structures.arrays.longest_peak import longest_peak
 
 
 class TestLongestPeak(unittest.TestCase):
