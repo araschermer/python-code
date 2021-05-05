@@ -1,7 +1,7 @@
 from numpy.testing import assert_equal
 
 
-def four_number_sum(nums: [int], target) -> [[int]]:
+def four_numbers_sum(nums: [int], target) -> [[int]]:
     """Returns all possible combinations (without duplicates) of all elements in nums that sum up to target.
     """
     nums.sort()
@@ -11,16 +11,19 @@ def four_number_sum(nums: [int], target) -> [[int]]:
         for index2 in range(index1 + 1, len(nums)):
             current_two_sum = nums[index1] + nums[index2]
             difference = target - current_two_sum
+            # Checking if a quadruplet exists, consisting of the elements at index1 and index2 and
+            # two other elements in the two_sum_table
             if difference in two_sum_table:
                 for pair in two_sum_table[difference]:
                     result.append(pair + [nums[index1], nums[index2]])
+        # Adding new pairs of numbers to the list of values for the current two numbers sum in the two_sum_table
         for index2 in range(0, index1):
             current_two_sum = nums[index1] + nums[index2]
             if current_two_sum not in two_sum_table:
                 two_sum_table[current_two_sum] = [[nums[index1], nums[index2]]]
             else:
                 two_sum_table[current_two_sum].append([nums[index1], nums[index2]])
-    # remove duplicates
+    # remove duplicates from the result
     results = []
     for quadruplet in result:
         if quadruplet not in results:
@@ -31,14 +34,14 @@ def four_number_sum(nums: [int], target) -> [[int]]:
     return results
 
 
-assert_equal(four_number_sum([-1, -5, -5, -3, 2, 5, 0, 4], -7), [[-5, -3, -1, 2], [-5, -5, -1, 4]])
-assert_equal(four_number_sum([-3, -2, -1, 0, 0, 1, 2, 3], 0), [[-2, -1, 0, 3], [-1, 0, 0, 1], [-2, 0, 0, 2],
-                                                               [-3, 0, 0, 3], [-2, -1, 1, 2], [-3, 0, 1, 2],
-                                                               [-3, -1, 1, 3], [-3, -2, 2, 3]])
-assert_equal(four_number_sum([7, 6, 4, -1, 1, 2], 16), [[1, 2, 6, 7], [-1, 4, 6, 7]])
-assert_equal(four_number_sum([-1, 1, 1, -2, 0, 7, 6, 4, -1, 1, 2], 0), [[-2, -1, -1, 4], [-1, -1, 0, 2], [-1, -1, 1, 1],
-                                                                        [-2, 0, 1, 1], [-2, -1, 1, 2]])
-assert_equal(four_number_sum([1, 0, -1, 0, -2, 2], 0), [[-1, 0, 0, 1], [-2, 0, 0, 2], [-2, -1, 1, 2]])
-assert_equal(four_number_sum([2, 2, 2, 2, 2], 8), [[2, 2, 2, 2]])
-assert_equal(four_number_sum([-3, -1, 0, 2, 4, 5], 0), [[-3, -1, 0, 4]])
-assert_equal(four_number_sum([-2, -1, -1, 1, 1, 2, 2], 0), [[-1, -1, 1, 1], [-2, -1, 1, 2]])
+assert_equal(four_numbers_sum([-1, -5, -5, -3, 2, 5, 0, 4], -7), [[-5, -3, -1, 2], [-5, -5, -1, 4]])
+assert_equal(four_numbers_sum([-3, -2, -1, 0, 0, 1, 2, 3], 0), [[-2, -1, 0, 3], [-1, 0, 0, 1], [-2, 0, 0, 2],
+                                                                [-3, 0, 0, 3], [-2, -1, 1, 2], [-3, 0, 1, 2],
+                                                                [-3, -1, 1, 3], [-3, -2, 2, 3]])
+assert_equal(four_numbers_sum([7, 6, 4, -1, 1, 2], 16), [[1, 2, 6, 7], [-1, 4, 6, 7]])
+assert_equal(four_numbers_sum([-1, 1, 1, -2, 0, 7, 6, 4, -1, 1, 2], 0), [[-2, -1, -1, 4], [-1, -1, 0, 2], [-1, -1, 1, 1],
+                                                                         [-2, 0, 1, 1], [-2, -1, 1, 2]])
+assert_equal(four_numbers_sum([1, 0, -1, 0, -2, 2], 0), [[-1, 0, 0, 1], [-2, 0, 0, 2], [-2, -1, 1, 2]])
+assert_equal(four_numbers_sum([2, 2, 2, 2, 2], 8), [[2, 2, 2, 2]])
+assert_equal(four_numbers_sum([-3, -1, 0, 2, 4, 5], 0), [[-3, -1, 0, 4]])
+assert_equal(four_numbers_sum([-2, -1, -1, 1, 1, 2, 2], 0), [[-1, -1, 1, 1], [-2, -1, 1, 2]])
