@@ -35,10 +35,8 @@
 These projects were developed, documented and tested for the sake of improving one's skills in the following programming languages and frameworks
 * [Python](https://www.python.org/)
 * [SQLAlchemy/SQLLite](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) 
-* [POSTMAN](https://learning.postman.com/)
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/)
-* [html](html)
-
+* [POSTMAN](https://learning.postman.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
