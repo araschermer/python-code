@@ -25,15 +25,9 @@ The projects are mainly focused on problem solving and gaining the first experie
         <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation"> Web Scraping and Automation Projects </a></li>
 <details>In Web Scraping projects, I use python to implement Tools to scrape website  and automate tasks using some of the most most popular such as <strong> Selenium, Beautiful soup and Scrapy</strong> and manipulate/store the scraped data into databases using different RDBMS such as <strong> SQLite3 and Mysql</strong>, and others </details>
 </ul><br/></ol>
-<summary><h2 style="display: inline-block">Restful APIs</h2></summary>
-        <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/RESTful%20API"> RESTful API projects </a></li>
-<details>In RESTful API projects, I use python to implement a RESTful api to retrieve and manipulate records of a database, in these projects I used <strong>Flask, SQLAlchemy</strong> in the implementation of the RESTful api, as well as <strong>sqlite</strong> as relational database management system. I eventually test the functionality of the RESTful api using <strong>POSTMAN framework</strong> </details>
-</ul><br/></ol>
-
-
-<summary><h2 style="display: inline-block">APIs (requests)</h2></summary>
-        <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/APIs%20(requests)"> API </a></li>
-<details>In API projects, I use python to retrieve data from websites using get requests  and implement automated tools based on some APIs.</details>
+<summary><h2 style="display: inline-block">Flask and Restful APIs</h2></summary>
+        <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/RESTful-API-and-FLASK"> Flask and RESTful API projects </a></li>
+<details>In Flask and RESTful API projects, I use python to implement a RESTful api to retrieve and manipulate records of a database, in these projects I used <strong>Flask, SQLAlchemy</strong> in the implementation of the RESTful api, as well as <strong>sqlite</strong> as relational database management system. I eventually test the functionality of the RESTful api using <strong>POSTMAN framework</strong>, the projects also enclude implemented and automated tasks to retrieve data from websites using get requests  and implement automated tools based on some APIs</details>
 </ul><br/></ol>
 
 <summary><h2 style="display: inline-block">Relational Databases</h2></summary>
