@@ -20,6 +20,10 @@
       <ul>
         <li><a href="https://github.com/amgad01/python-code/tree/main/100%20days%20of%20code/REFTful%20API(FLASK%2C%20SQLAlchemy%2C%20POSTMAN)/cafe-api">CAFE-API</a></li>
       </ul>
+    <ul>
+        <li><a href="https://github.com/amgad01/python-code/tree/main/RESTful-API-and-FLASK/RESTful-API-using-flask/Blog-api">Blog-API</a></li>
+      </ul>
+    
 
   </ol>
 </details>
