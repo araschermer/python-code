@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">RESTful APIs</h3>
+  <h3 align="center">Designing RESTful APIs </h3>
 
   <p align="center">
     project_description
@@ -44,5 +44,4 @@ These projects were developed, documented and tested for the sake of improving o
 To get a local copy up and running follow these simple steps.
 
 1-download the project's file and install the `FLASK module` and `flask_sqlalchemy`.\
-2- check the `readme.md` file in each project directory
-
+2- check the `readme.md` file in each project di
