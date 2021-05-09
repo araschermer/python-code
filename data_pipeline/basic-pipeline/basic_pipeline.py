@@ -1,6 +1,5 @@
-# This time, we'll pipe data to our program, transform it, and save it somewhere else
+# Data pipelines is used to extract data, transform it, and load/save it somewhere else
 # A simple data pipeline!
-
 import sys
 
 # Read from the standard input (file-like object)
