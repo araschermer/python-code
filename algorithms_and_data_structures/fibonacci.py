@@ -40,3 +40,20 @@ def fibonacci(n):
 
 
 fibonacci(900)
+# basic implementation
+num1, num2 = 0, 1
+for _ in range(0, 10):
+    print(num1)
+    num1, num2 = num2, num1 + num2
+
+
+#  implementation using generator
+def fibonacci(number_):
+    num1, num2 = 0, 1
+    for number in range(0, number_):
+        yield f"{number + 1}:{num1}"
+        num1, num2 = num2, num1 + num2
+
+
+for number in fibonacci(10):
+    print(number)
