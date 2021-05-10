@@ -6,7 +6,9 @@
 <h3 align="center">Projects in python</h3>
 
   <p > <br />In this repository, I provide implementation and documentation to some projects using python.
-The projects are mainly focused on problem solving and gaining the first experience using the most essential frameworks, relational database management systems  and other python modules.
+The projects are mainly foc
+  
+  on problem solving and gaining the first experience using the most essential frameworks, relational database management systems, and other python modules.
 
    <br />
     <br />
@@ -27,7 +29,7 @@ The projects are mainly focused on problem solving and gaining the first experie
 </ul><br/></ol>
 <summary><h2 style="display: inline-block">Flask and Restful APIs</h2></summary>
         <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/RESTful-API-and-FLASK"> Flask and RESTful API projects </a></li>
-<details>In Flask and RESTful API projects, I use python to implement a RESTful api to retrieve and manipulate records of a database, in these projects I used <strong>Flask, SQLAlchemy</strong> in the implementation of the RESTful api, as well as <strong>sqlite</strong> as relational database management system. I eventually test the functionality of the RESTful api using <strong>POSTMAN framework</strong>, the projects also enclude implemented and automated tasks to retrieve data from websites using get requests  and implement automated tools based on some APIs</details>
+<details>In Flask and RESTful API projects, I use python to implement a RESTful api to retrieve and manipulate records of a database. In these projects I use <strong>Flask, SQLAlchemy</strong> in the implementation of the RESTful api, as well as <strong>sqlite</strong> as relational database management system. I eventually test the functionality of the RESTful api using <strong>POSTMAN framework</strong>, the projects also enclude implemented and automated tasks to retrieve data from websites using get requests  and implement automated tools based on some APIs</details>
 </ul><br/></ol>
 
 <summary><h2 style="display: inline-block">Relational Databases</h2></summary>
