@@ -9,11 +9,11 @@
 The projects are mainly foc
   
   on problem solving and gaining the first experience using the most essential frameworks, relational database management systems, and other python modules.
+                    ![visitors](https://visitor-badge.glitch.me/badge?page_id=amgad01.python-code)
 
    <br />
     <br />
   </p>
-                    ![visitors](https://visitor-badge.glitch.me/badge?page_id=amgad01.python-code)
 
 <!-- TABLE OF CONTENTS -->
 <summary><h2 style="display: inline-block">Projects</h2></summary>
