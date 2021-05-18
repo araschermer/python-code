@@ -13,6 +13,7 @@ The projects are mainly foc
    <br />
     <br />
   </p>
+                    ![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
 
 <!-- TABLE OF CONTENTS -->
 <summary><h2 style="display: inline-block">Projects</h2></summary>
